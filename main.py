@@ -1,11 +1,17 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from pydantic import BaseModel
 from pathlib import Path
 import shutil
-import os
 import uuid
 from datetime import datetime
 
 app = FastAPI()
+
+class UploadResponse(BaseModel):
+    job_id: str
+    status: str
+    filename: str
+    timestamp: datetime
 
 jobs = {}
 
@@ -16,14 +22,17 @@ def read_root():
 
 # variable: file -> type: UploadFile
 # = File(...) -> pulled from form data of request, required otherwise send 422 Unprocessable Entity error
-@app.post("/upload")
+@app.post("/upload", response_model=UploadResponse)
 async def upload_video(file: UploadFile = File(...)):
-
+    print(f"DEBUG: Filename: {file.filename}, Content-Type: {file.content_type}")
     job_id = str(uuid.uuid4())
 
     #----- saving file to disk -----
-    if file.content_type not in ["video/mp4", "audio/mpeg"]:
-        return {"error": "Sorry, I only accept media files"}
+    if file.content_type not in ["video/mp4", "audio/mpeg", "video/matroska"]:
+        raise HTTPException(
+            status_code=400,
+            detail="Sorry, I only accept media files (MP4, MP3, MKV)"
+        )
 
     uploads = Path("uploads")
     uploads.mkdir(exist_ok=True)
@@ -33,6 +42,10 @@ async def upload_video(file: UploadFile = File(...)):
     try:
         with destination_path.open("wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
+
+        file_stats = destination_path.stat()
+        timestamp = datetime.fromtimestamp(file_stats.st_mtime)
+        
 
     except OSError as e:
         # error code for "No space left on device"
@@ -48,10 +61,20 @@ async def upload_video(file: UploadFile = File(...)):
         await file.close()
     #--------------------------------
     
-    jobs[job_id] = {
+    job_data = {
+        "job_id": job_id,
         "status": "pending",
-        "file_path": str(destination_path),
-        "timestamp": datetime.fromtimestamp(destination_path.stat().st_mtime)
+        "filename": file.filename,
+        "timestamp": timestamp
     }
+    jobs[job_id] = job_data
 
-    return {"job_id": job_id}
+    return job_data
+
+
+@app.get("/status/{job_id}", response_model=UploadResponse)
+def check_status(job_id: str):
+    job = jobs.get(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    return job
