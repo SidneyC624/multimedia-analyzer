@@ -3,10 +3,10 @@ import React from 'react';
 const STYLES = {
     wrapper: "w-full max-w-lg mx-auto my-4",
     labelWrapper: "flex justify-between items-center mb-1.5",
-    labelText: "text-sm font-medium text-gray-700",
-    percentText: "text-sm font-semibold text-blue-600",
-    track: "w-full h-3 bg-gray-200 rounded-full overflow-hidden shadow-inner",
-    fill: "h-full bg-blue-600 rounded-full transition-all duration-300 ease-out"
+    labelText: "text-sm font-medium text-zinc-300",
+    percentText: "text-sm font-semibold text-white font-mono",
+    track: "w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden shadow-inner",
+    fill: "h-full bg-white rounded-full transition-all duration-300 ease-out"
 };
 
 

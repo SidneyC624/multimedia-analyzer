@@ -9,9 +9,9 @@ const STYLES = {
         duration-200 cursor-pointer max-w-lg mx-auto
     `,
     iconWrapper: "mb-4 text-gray-400",
-    heading: "text-lg font-medium text-gray-700 text-center",
-    browseLink: "text-blue-500 underline decoration-2 underline-offset-2",
-    subtitle: "mt-2 text-sm text-gray-400 text-center",
+    heading: "text-lg font-medium text-zinc-300 text-center",
+    browseLink: "text-white underline decoration-zinc-400",
+    subtitle: "mt-2 text-sm text-zinc-500 text-center",
     errorText: "mt-3 text-sm font-semibold text-red-500 text-center"
 }
 
@@ -92,7 +92,7 @@ function DropZone({ onFileSelect }) {
                 ${isDragging
                     // Dynamic UI when dragged over
                     ? "border-blue-500 bg-blue50/50 scale-[1.02]"
-                    : !errorMessage ? "border-gray-300 bg-gray-100 hover:bg-gray-100/70 hover:border-blue-400" : ""
+                    : !errorMessage ? "bg-zinc-900/30 border-zinc-800 hover:border-zinc-700 hover:bg-zinc-900/60" : ""
                 }
             `}
             
