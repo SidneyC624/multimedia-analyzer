@@ -1,7 +1,7 @@
 import torch
 from faster_whisper import WhisperModel
 
-def get_whisper_model(model_size: str = "medium.en") ->WhisperModel:
+def get_whisper_model(model_size: str = "medium.en") -> WhisperModel:
     """
     Initializes and returns an optimized faster-whisper model.
     """

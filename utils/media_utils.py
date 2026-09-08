@@ -1,4 +1,3 @@
-from moviepy import VideoFileClip
 import cv2
 from pathlib import Path
 import subprocess
@@ -11,7 +10,7 @@ def has_audio_stream(video_path: str) -> bool:
         "-select_streams", "a",
         "-show_entries", "stream=index",
         "-of", "csv=p=0",
-        video_path
+        str(video_path)
     ]
 
     probe_result = subprocess.run(
@@ -30,7 +29,7 @@ def get_media_duration(file_path: str) -> float:
         "-loglevel", "error",
         "-show_entries", "format=duration",
         "-of", "csv=p=0",
-        file_path
+        str(file_path)
     ]
 
     result = subprocess.run(
@@ -57,7 +56,7 @@ def extract_audio(video_path: str) -> str:
 
     audio_file_path = cache_dir / f"{Path(video_path).stem}.wav"
 
-    if audio_file_path.exists() and audio_file_path.getsize() > 0:
+    if audio_file_path.exists() and audio_file_path.stat().st_size > 0:
         return str(audio_file_path)
 
     # configure ffmpeg parameters
