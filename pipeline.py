@@ -1,6 +1,6 @@
 import re
 import json
-from utils.media_utils import extract_audio
+from utils.media_utils import extract_audio, detect_and_save_slides
 from ml.transcriber import LectureTranscriber
 from typing import Any
 import yt_dlp
@@ -98,14 +98,31 @@ def run_lecture_pipeline(video_path: str) -> tuple[list[dict], Any]:
     return structured_transcript, info
 
 if __name__ == "__main__":
-    video_path = "something"
+    # video_path = "something"
 
-    transcript, info = run_lecture_pipeline("https://www.youtube.com/watch?v=pTB0EiLXUC8")
+    # transcript, info = run_lecture_pipeline("https://www.youtube.com/watch?v=pTB0EiLXUC8")
 
-    output_json = "temp_audio/processed_transcript.json"
-    Path(output_json).parent.mkdir(parents=True, exist_ok=True)
+    # output_json = "temp_audio/processed_transcript.json"
+    # Path(output_json).parent.mkdir(parents=True, exist_ok=True)
 
-    with open("temp_audio/processed_transcript.json", "w", encoding="utf-8") as f:
-        json.dump(transcript, f, indent=2)
+    # with open("temp_audio/processed_transcript.json", "w", encoding="utf-8") as f:
+    #     json.dump(transcript, f, indent=2)
 
-    print(f"Pipeline finished successfully!\n Saved structured transcript to {output_json}")
+    # print(f"Pipeline finished successfully!\n Saved structured transcript to {output_json}")
+
+    # Testing keyframe extraction and slide detection
+    test_video_path = "sample/test_lecture.mp4"
+
+    if not Path(test_video_path).exists():
+        download_lecture("https://www.youtube.com/watch?v=pTB0EiLXUC8", output_path=test_video_path)
+
+    print(f"\n--- Testing slide detection on {test_video_path} ---")
+    slides_metadata = detect_and_save_slides(
+        video_path=test_video_path,
+        output_dir="slides",
+        threshold=15.0,
+        sample_rate_sec=1.0
+    )
+
+    print("\nSlides detection results")
+    print(json.dumps(slides_metadata, indent=2))
