@@ -1,6 +1,6 @@
 import re
 import json
-from utils.media_utils import extract_audio, detect_and_save_slides
+from utils.media_utils import extract_audio, detect_and_save_slides, get_media_duration
 from ml.transcriber import LectureTranscriber
 from typing import Any
 import yt_dlp
@@ -85,8 +85,56 @@ def process_words(segments) -> list[dict]:
         })
     return sentences
 
-def run_lecture_pipeline(video_path: str) -> tuple[list[dict], Any]:
-    local_video_path = download_lecture(video_path)
+
+def align_slides_with_transcript(
+        slides_metadata: list[dict],
+        sentences: list[dict],
+        video_duration: float
+) -> list[dict]:
+    """
+    Maps transcript words/sentences into active slide time windows
+    """
+    
+    if not slides_metadata:
+        return []
+
+    all_words = []
+    for s in sentences:
+        for w in s.get("words", []):
+            all_words.append(w)
+
+    synchronized_slides = []
+
+    for i, slide in enumerate(slides_metadata):
+        start_time = slide["timestamp"]
+        end_time = slides_metadata[i + 1]["timestamp"] if i < len(slides_metadata) - 1 else round(video_duration, 2)
+
+        slide_words = [
+            w for w in all_words
+            if start_time <= w["start"] < end_time
+        ]
+
+        slide_text = " ".join(w["word"] for w in slide_words)
+
+        synchronized_slides.append({
+            "slide_id": slide["slide_index"],
+            "image_path": slide["file_path"],
+            "timestamp_start": start_time,
+            "timestamp_end": end_time,
+            "word_count": len(slide_words),
+            "transcript_text": slide_text,
+            "words": slide_words
+        })
+
+    return synchronized_slides
+
+        
+def run_lecture_pipeline(
+        url: str,
+        output_json_path: str = "output/synchronized_lecture.json"
+        ) -> list[dict]:
+    local_video_path = download_lecture(url)
+    video_duration = get_media_duration(local_video_path)
     audio_path = extract_audio(local_video_path)
 
     transcriber = LectureTranscriber(model_size="medium.en")
@@ -94,35 +142,28 @@ def run_lecture_pipeline(video_path: str) -> tuple[list[dict], Any]:
 
     structured_transcript = process_words(raw_segments)
 
-    print(f"Processed {len(structured_transcript)} sentences")
-    return structured_transcript, info
+    slides_metadata = detect_and_save_slides(video_path=local_video_path)
 
-if __name__ == "__main__":
-    # video_path = "something"
-
-    # transcript, info = run_lecture_pipeline("https://www.youtube.com/watch?v=pTB0EiLXUC8")
-
-    # output_json = "temp_audio/processed_transcript.json"
-    # Path(output_json).parent.mkdir(parents=True, exist_ok=True)
-
-    # with open("temp_audio/processed_transcript.json", "w", encoding="utf-8") as f:
-    #     json.dump(transcript, f, indent=2)
-
-    # print(f"Pipeline finished successfully!\n Saved structured transcript to {output_json}")
-
-    # Testing keyframe extraction and slide detection
-    test_video_path = "sample/test_lecture.mp4"
-
-    if not Path(test_video_path).exists():
-        download_lecture("https://www.youtube.com/watch?v=pTB0EiLXUC8", output_path=test_video_path)
-
-    print(f"\n--- Testing slide detection on {test_video_path} ---")
-    slides_metadata = detect_and_save_slides(
-        video_path=test_video_path,
-        output_dir="slides",
-        threshold=15.0,
-        sample_rate_sec=1.0
+    synchronized_data = align_slides_with_transcript(
+        slides_metadata=slides_metadata,
+        sentences=structured_transcript,
+        video_duration=video_duration
     )
 
-    print("\nSlides detection results")
-    print(json.dumps(slides_metadata, indent=2))
+    total_words = sum(len(s.get("words", [])) for s in structured_transcript) 
+
+    output_path = Path(output_json_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(synchronized_data, f, indent=2)
+
+    print(f"\n--- Pipeline Complete! ---")
+    print(f"Total Slides: {len(synchronized_data)}")
+    print(f"Total Words Mapped: {total_words}")
+    print(f"Saved payload to: {output_json_path}")
+
+    return synchronized_data
+
+if __name__ == "__main__":
+    url = "https://www.youtube.com/watch?v=pTB0EiLXUC8"
+    run_lecture_pipeline(url)
