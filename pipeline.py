@@ -5,6 +5,7 @@ from ml.transcriber import LectureTranscriber
 from typing import Any
 import yt_dlp
 from pathlib import Path
+from ml.study_guide_generator import generate_study_guide
 
 def download_lecture(youtube_url: str, output_path: str = "samples/test_lecture.mp4") -> str:
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
@@ -131,7 +132,8 @@ def align_slides_with_transcript(
         
 def run_lecture_pipeline(
         url: str,
-        output_json_path: str = "output/synchronized_lecture.json"
+        output_json_path: str = "output/synchronized_lecture.json",
+        study_guide_output_path: str = "output/study_guide.json"
         ) -> list[dict]:
     local_video_path = download_lecture(url)
     video_duration = get_media_duration(local_video_path)
@@ -150,19 +152,20 @@ def run_lecture_pipeline(
         video_duration=video_duration
     )
 
-    total_words = sum(len(s.get("words", [])) for s in structured_transcript) 
-
     output_path = Path(output_json_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(synchronized_data, f, indent=2)
 
-    print(f"\n--- Pipeline Complete! ---")
-    print(f"Total Slides: {len(synchronized_data)}")
-    print(f"Total Words Mapped: {total_words}")
-    print(f"Saved payload to: {output_json_path}")
+    print("\n--- Generating Study Guide with gpt-4o-mini ---")
+    study_guide_obj = generate_study_guide(output_json_path)
 
-    return synchronized_data
+    # Save pydantic object as validated JSON
+    with open(study_guide_output_path, "w", encoding="utf-8") as f:
+        f.write(study_guide_obj.model_dump_json(indent=2))
+
+    print(f"Study Guide successfully generated and saved to: {study_guide_output_path}")
+    return study_guide_obj.model_dump()
 
 if __name__ == "__main__":
     url = "https://www.youtube.com/watch?v=pTB0EiLXUC8"
