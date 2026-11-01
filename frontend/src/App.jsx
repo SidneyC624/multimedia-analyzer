@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import DropZone from "./components/DropZone";
-import ProgressBar from './components/ProgressBar';
+import UrlInput from './components/UrlInput';
 import AnalysisLoader from './components/AnalysisLoader';
 import axios from 'axios';
 
@@ -15,9 +14,7 @@ const STYLES = {
 
 function App() {
 
-    const [selectedFile, setSelectedFile] = useState(null);
-    const [uploadProgress, setUploadProgress] = useState(0);
-    const [isUploading, setIsUploading] = useState(false);
+    const [submittedUrl, setSubmittedUrl] = useState(null);
     const [jobId, setJobId] = useState(null);
     const [status, setStatus] = useState(null);
     const [uiError, setUiError] = useState(null);
@@ -42,61 +39,40 @@ function App() {
       };
     }, [jobId]);
 
-    const handleFileCheck = (validFile) => {
-      console.log("App.jsx caught the file successfully! ", validFile);
-      setSelectedFile(validFile);
-      uploadMediaFile(validFile);
+    const handleUrlSubmit = (url) => {
+      console.log("App.jsx caught the URL successfully! ", url);
+      setSubmittedUrl(url);
+      sendUrlToBackend(url);
     };
 
-    const uploadMediaFile = async (file) => {
-      const formData = new FormData();
-      formData.append("file", file);
+    const sendUrlToBackend = async (url) => {
       setUiError(null);
 
       try {
-        setIsUploading(true);
-        const response = await axios.post("http://localhost:8000/upload", formData, {
-          onUploadProgress: (progressEvent) => {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
-            setUploadProgress(percentCompleted);
-          }
-        })
-
+        const response = await axios.post("http://localhost:8000/submit-url", { url });
         setJobId(response.data.job_id);
         setStatus(response.data.status);
       }
       catch(e) {
-        console.error("Upload failed", e.response?.data?.detail || e.message);
+        console.error("Submission failed", e.response?.data?.detail || e.message);
         setUiError(e.response?.data?.detail || "Server unreachable. Please try again later.")
       }
-      finally {
-        setIsUploading(false);
-      }
-    }
+    };
 
     return(
       <div className={STYLES.screenWrapper}>
         <h1 className={STYLES.title}>Multimedia Content Analyzer</h1>
 
-        <DropZone onFileSelect={handleFileCheck}/>
+        <UrlInput onSubmit={handleUrlSubmit} />
 
-        {selectedFile && (
+        {submittedUrl && (
           <div className={STYLES.statusCard}>
-            <p className={STYLES.statusTitle}>Ready for backend processing:</p>
-            <p className={STYLES.statusDetails}>
-              {selectedFile.name} ({(selectedFile.size / (1024 * 1024)).toFixed(2)} MB)
-            </p>
+            <p className={STYLES.statusTitle}>Submitted Link:</p>
+            <p className={STYLES.statusDetails}>{submittedUrl}</p>
           </div>
         )}
 
-        {isUploading && (
-          <ProgressBar 
-            currentValue={uploadProgress}
-            label="Uploading"
-          />
-        )}
-
-        {jobId && status === "pending" && !isUploading && (
+        {jobId && status === "pending" && (
           <AnalysisLoader jobId={jobId} status={status}/>
         )}
 
