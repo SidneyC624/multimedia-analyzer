@@ -1,0 +1,7666 @@
+[
+  {
+    "slide_id": 1,
+    "image_path": "slides\\slide_001_at_0.0s.jpg",
+    "timestamp_start": 0.0,
+    "timestamp_end": 15.199999999999978,
+    "word_count": 22,
+    "transcript_text": "a Popular interview question concerns the four core concepts in object -oriented programming. These concepts are encapsulation abstraction inheritance and Polymorphism, let's",
+    "words": [
+      {
+        "word": "a",
+        "start": 1.6,
+        "end": 2.4,
+        "probability": 0.19
+      },
+      {
+        "word": "Popular",
+        "start": 2.4,
+        "end": 2.7,
+        "probability": 0.3
+      },
+      {
+        "word": "interview",
+        "start": 2.7,
+        "end": 3.1,
+        "probability": 0.99
+      },
+      {
+        "word": "question",
+        "start": 3.1,
+        "end": 3.66,
+        "probability": 0.95
+      },
+      {
+        "word": "concerns",
+        "start": 3.66,
+        "end": 4.3,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 4.3,
+        "end": 4.56,
+        "probability": 0.99
+      },
+      {
+        "word": "four",
+        "start": 4.56,
+        "end": 4.86,
+        "probability": 0.9
+      },
+      {
+        "word": "core",
+        "start": 4.86,
+        "end": 5.24,
+        "probability": 1.0
+      },
+      {
+        "word": "concepts",
+        "start": 5.24,
+        "end": 5.86,
+        "probability": 0.99
+      },
+      {
+        "word": "in",
+        "start": 5.86,
+        "end": 6.08,
+        "probability": 0.99
+      },
+      {
+        "word": "object",
+        "start": 6.08,
+        "end": 6.6,
+        "probability": 0.98
+      },
+      {
+        "word": "-oriented",
+        "start": 6.6,
+        "end": 6.98,
+        "probability": 0.8
+      },
+      {
+        "word": "programming.",
+        "start": 6.98,
+        "end": 7.56,
+        "probability": 1.0
+      },
+      {
+        "word": "These",
+        "start": 7.56,
+        "end": 8.26,
+        "probability": 0.94
+      },
+      {
+        "word": "concepts",
+        "start": 8.26,
+        "end": 8.72,
+        "probability": 1.0
+      },
+      {
+        "word": "are",
+        "start": 8.72,
+        "end": 9.2,
+        "probability": 1.0
+      },
+      {
+        "word": "encapsulation",
+        "start": 9.74,
+        "end": 10.42,
+        "probability": 0.99
+      },
+      {
+        "word": "abstraction",
+        "start": 11.06,
+        "end": 11.56,
+        "probability": 0.95
+      },
+      {
+        "word": "inheritance",
+        "start": 11.56,
+        "end": 12.68,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 12.68,
+        "end": 13.08,
+        "probability": 0.99
+      },
+      {
+        "word": "Polymorphism,",
+        "start": 13.66,
+        "end": 14.58,
+        "probability": 0.87
+      },
+      {
+        "word": "let's",
+        "start": 14.68,
+        "end": 15.38,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 2,
+    "image_path": "slides\\slide_002_at_15.2s.jpg",
+    "timestamp_start": 15.199999999999978,
+    "timestamp_end": 21.599999999999955,
+    "word_count": 17,
+    "transcript_text": "look at each of these concepts Before object -oriented programming we had procedural programming that divided a",
+    "words": [
+      {
+        "word": "look",
+        "start": 15.38,
+        "end": 15.52,
+        "probability": 1.0
+      },
+      {
+        "word": "at",
+        "start": 15.52,
+        "end": 15.7,
+        "probability": 1.0
+      },
+      {
+        "word": "each",
+        "start": 15.7,
+        "end": 15.84,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 15.84,
+        "end": 16.0,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 16.0,
+        "end": 16.14,
+        "probability": 0.99
+      },
+      {
+        "word": "concepts",
+        "start": 16.14,
+        "end": 16.54,
+        "probability": 0.99
+      },
+      {
+        "word": "Before",
+        "start": 16.88,
+        "end": 17.62,
+        "probability": 0.53
+      },
+      {
+        "word": "object",
+        "start": 17.62,
+        "end": 18.06,
+        "probability": 0.99
+      },
+      {
+        "word": "-oriented",
+        "start": 18.06,
+        "end": 18.36,
+        "probability": 0.91
+      },
+      {
+        "word": "programming",
+        "start": 18.36,
+        "end": 18.96,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 18.96,
+        "end": 19.38,
+        "probability": 0.76
+      },
+      {
+        "word": "had",
+        "start": 19.38,
+        "end": 19.58,
+        "probability": 0.95
+      },
+      {
+        "word": "procedural",
+        "start": 19.58,
+        "end": 20.1,
+        "probability": 0.99
+      },
+      {
+        "word": "programming",
+        "start": 20.1,
+        "end": 20.7,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 20.7,
+        "end": 20.98,
+        "probability": 1.0
+      },
+      {
+        "word": "divided",
+        "start": 20.98,
+        "end": 21.4,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 21.4,
+        "end": 21.66,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "slide_id": 3,
+    "image_path": "slides\\slide_003_at_21.6s.jpg",
+    "timestamp_start": 21.599999999999955,
+    "timestamp_end": 24.399999999999945,
+    "word_count": 10,
+    "transcript_text": "program into a set of functions so we have data",
+    "words": [
+      {
+        "word": "program",
+        "start": 21.66,
+        "end": 22.0,
+        "probability": 1.0
+      },
+      {
+        "word": "into",
+        "start": 22.0,
+        "end": 22.32,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 22.32,
+        "end": 22.5,
+        "probability": 0.98
+      },
+      {
+        "word": "set",
+        "start": 22.5,
+        "end": 22.62,
+        "probability": 0.98
+      },
+      {
+        "word": "of",
+        "start": 22.62,
+        "end": 22.82,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 22.82,
+        "end": 23.26,
+        "probability": 1.0
+      },
+      {
+        "word": "so",
+        "start": 23.26,
+        "end": 23.98,
+        "probability": 0.79
+      },
+      {
+        "word": "we",
+        "start": 23.98,
+        "end": 24.14,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 24.14,
+        "end": 24.28,
+        "probability": 1.0
+      },
+      {
+        "word": "data",
+        "start": 24.28,
+        "end": 24.68,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "slide_id": 4,
+    "image_path": "slides\\slide_004_at_24.4s.jpg",
+    "timestamp_start": 24.399999999999945,
+    "timestamp_end": 30.599999999999923,
+    "word_count": 17,
+    "transcript_text": "stored in a bunch of variables and Functions that operate on the data this style of programming",
+    "words": [
+      {
+        "word": "stored",
+        "start": 24.68,
+        "end": 25.16,
+        "probability": 0.94
+      },
+      {
+        "word": "in",
+        "start": 25.16,
+        "end": 25.44,
+        "probability": 0.7
+      },
+      {
+        "word": "a",
+        "start": 25.44,
+        "end": 25.56,
+        "probability": 1.0
+      },
+      {
+        "word": "bunch",
+        "start": 25.56,
+        "end": 25.72,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 25.72,
+        "end": 25.94,
+        "probability": 1.0
+      },
+      {
+        "word": "variables",
+        "start": 25.94,
+        "end": 26.42,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 26.42,
+        "end": 26.82,
+        "probability": 1.0
+      },
+      {
+        "word": "Functions",
+        "start": 26.82,
+        "end": 27.52,
+        "probability": 0.75
+      },
+      {
+        "word": "that",
+        "start": 27.52,
+        "end": 27.78,
+        "probability": 0.99
+      },
+      {
+        "word": "operate",
+        "start": 27.78,
+        "end": 28.4,
+        "probability": 0.99
+      },
+      {
+        "word": "on",
+        "start": 28.4,
+        "end": 28.72,
+        "probability": 0.95
+      },
+      {
+        "word": "the",
+        "start": 28.72,
+        "end": 28.84,
+        "probability": 1.0
+      },
+      {
+        "word": "data",
+        "start": 28.84,
+        "end": 29.22,
+        "probability": 0.99
+      },
+      {
+        "word": "this",
+        "start": 29.22,
+        "end": 29.94,
+        "probability": 0.61
+      },
+      {
+        "word": "style",
+        "start": 29.94,
+        "end": 30.16,
+        "probability": 0.99
+      },
+      {
+        "word": "of",
+        "start": 30.16,
+        "end": 30.42,
+        "probability": 1.0
+      },
+      {
+        "word": "programming",
+        "start": 30.42,
+        "end": 30.76,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 5,
+    "image_path": "slides\\slide_005_at_30.6s.jpg",
+    "timestamp_start": 30.599999999999923,
+    "timestamp_end": 47.00000000000013,
+    "word_count": 54,
+    "transcript_text": "is very simple and straightforward Often it's what you will learn as part of your first programming subject at a university But as your programs grow you will end up with a bunch of functions that are all over the place You might find yourself copying and pasting lines of code over and over",
+    "words": [
+      {
+        "word": "is",
+        "start": 30.76,
+        "end": 31.04,
+        "probability": 1.0
+      },
+      {
+        "word": "very",
+        "start": 31.04,
+        "end": 31.28,
+        "probability": 1.0
+      },
+      {
+        "word": "simple",
+        "start": 31.28,
+        "end": 31.72,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 31.72,
+        "end": 31.96,
+        "probability": 1.0
+      },
+      {
+        "word": "straightforward",
+        "start": 31.96,
+        "end": 32.56,
+        "probability": 0.99
+      },
+      {
+        "word": "Often",
+        "start": 32.56,
+        "end": 33.54,
+        "probability": 0.92
+      },
+      {
+        "word": "it's",
+        "start": 33.54,
+        "end": 33.76,
+        "probability": 0.95
+      },
+      {
+        "word": "what",
+        "start": 33.76,
+        "end": 33.88,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 33.88,
+        "end": 34.02,
+        "probability": 1.0
+      },
+      {
+        "word": "will",
+        "start": 34.02,
+        "end": 34.14,
+        "probability": 0.79
+      },
+      {
+        "word": "learn",
+        "start": 34.14,
+        "end": 34.32,
+        "probability": 1.0
+      },
+      {
+        "word": "as",
+        "start": 34.32,
+        "end": 34.6,
+        "probability": 1.0
+      },
+      {
+        "word": "part",
+        "start": 34.6,
+        "end": 34.82,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 34.82,
+        "end": 34.96,
+        "probability": 1.0
+      },
+      {
+        "word": "your",
+        "start": 34.96,
+        "end": 35.08,
+        "probability": 1.0
+      },
+      {
+        "word": "first",
+        "start": 35.08,
+        "end": 35.56,
+        "probability": 1.0
+      },
+      {
+        "word": "programming",
+        "start": 35.56,
+        "end": 36.0,
+        "probability": 0.97
+      },
+      {
+        "word": "subject",
+        "start": 36.0,
+        "end": 36.52,
+        "probability": 0.99
+      },
+      {
+        "word": "at",
+        "start": 36.52,
+        "end": 36.74,
+        "probability": 0.99
+      },
+      {
+        "word": "a",
+        "start": 36.74,
+        "end": 36.88,
+        "probability": 0.98
+      },
+      {
+        "word": "university",
+        "start": 36.88,
+        "end": 37.38,
+        "probability": 0.96
+      },
+      {
+        "word": "But",
+        "start": 37.38,
+        "end": 38.14,
+        "probability": 0.8
+      },
+      {
+        "word": "as",
+        "start": 38.14,
+        "end": 38.34,
+        "probability": 1.0
+      },
+      {
+        "word": "your",
+        "start": 38.34,
+        "end": 38.52,
+        "probability": 1.0
+      },
+      {
+        "word": "programs",
+        "start": 38.52,
+        "end": 38.94,
+        "probability": 0.97
+      },
+      {
+        "word": "grow",
+        "start": 38.94,
+        "end": 39.28,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 39.28,
+        "end": 39.68,
+        "probability": 0.79
+      },
+      {
+        "word": "will",
+        "start": 39.68,
+        "end": 39.88,
+        "probability": 0.93
+      },
+      {
+        "word": "end",
+        "start": 39.88,
+        "end": 40.1,
+        "probability": 1.0
+      },
+      {
+        "word": "up",
+        "start": 40.1,
+        "end": 40.24,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 40.24,
+        "end": 40.38,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 40.38,
+        "end": 40.56,
+        "probability": 1.0
+      },
+      {
+        "word": "bunch",
+        "start": 40.56,
+        "end": 40.76,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 40.76,
+        "end": 40.98,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 40.98,
+        "end": 41.38,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 41.38,
+        "end": 41.56,
+        "probability": 0.99
+      },
+      {
+        "word": "are",
+        "start": 41.56,
+        "end": 41.74,
+        "probability": 1.0
+      },
+      {
+        "word": "all",
+        "start": 41.74,
+        "end": 42.04,
+        "probability": 0.98
+      },
+      {
+        "word": "over",
+        "start": 42.04,
+        "end": 42.24,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 42.24,
+        "end": 42.36,
+        "probability": 1.0
+      },
+      {
+        "word": "place",
+        "start": 42.36,
+        "end": 42.8,
+        "probability": 1.0
+      },
+      {
+        "word": "You",
+        "start": 42.8,
+        "end": 43.46,
+        "probability": 0.76
+      },
+      {
+        "word": "might",
+        "start": 43.46,
+        "end": 43.58,
+        "probability": 1.0
+      },
+      {
+        "word": "find",
+        "start": 43.58,
+        "end": 43.8,
+        "probability": 1.0
+      },
+      {
+        "word": "yourself",
+        "start": 43.8,
+        "end": 44.18,
+        "probability": 1.0
+      },
+      {
+        "word": "copying",
+        "start": 44.18,
+        "end": 44.68,
+        "probability": 0.95
+      },
+      {
+        "word": "and",
+        "start": 44.68,
+        "end": 44.98,
+        "probability": 0.99
+      },
+      {
+        "word": "pasting",
+        "start": 44.98,
+        "end": 45.52,
+        "probability": 1.0
+      },
+      {
+        "word": "lines",
+        "start": 45.52,
+        "end": 45.82,
+        "probability": 0.97
+      },
+      {
+        "word": "of",
+        "start": 45.82,
+        "end": 46.02,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 46.02,
+        "end": 46.34,
+        "probability": 1.0
+      },
+      {
+        "word": "over",
+        "start": 46.34,
+        "end": 46.76,
+        "probability": 0.86
+      },
+      {
+        "word": "and",
+        "start": 46.76,
+        "end": 46.94,
+        "probability": 1.0
+      },
+      {
+        "word": "over",
+        "start": 46.94,
+        "end": 47.5,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 6,
+    "image_path": "slides\\slide_006_at_47.0s.jpg",
+    "timestamp_start": 47.00000000000013,
+    "timestamp_end": 51.000000000000185,
+    "word_count": 13,
+    "transcript_text": "you make a change to one function and then several other Functions break",
+    "words": [
+      {
+        "word": "you",
+        "start": 47.5,
+        "end": 47.72,
+        "probability": 0.75
+      },
+      {
+        "word": "make",
+        "start": 47.72,
+        "end": 47.86,
+        "probability": 0.98
+      },
+      {
+        "word": "a",
+        "start": 47.86,
+        "end": 47.98,
+        "probability": 0.94
+      },
+      {
+        "word": "change",
+        "start": 47.98,
+        "end": 48.22,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 48.22,
+        "end": 48.4,
+        "probability": 1.0
+      },
+      {
+        "word": "one",
+        "start": 48.4,
+        "end": 48.56,
+        "probability": 1.0
+      },
+      {
+        "word": "function",
+        "start": 48.56,
+        "end": 48.9,
+        "probability": 0.97
+      },
+      {
+        "word": "and",
+        "start": 48.9,
+        "end": 49.42,
+        "probability": 0.54
+      },
+      {
+        "word": "then",
+        "start": 49.42,
+        "end": 49.54,
+        "probability": 1.0
+      },
+      {
+        "word": "several",
+        "start": 49.54,
+        "end": 49.96,
+        "probability": 0.95
+      },
+      {
+        "word": "other",
+        "start": 49.96,
+        "end": 50.4,
+        "probability": 0.94
+      },
+      {
+        "word": "Functions",
+        "start": 50.4,
+        "end": 50.78,
+        "probability": 0.46
+      },
+      {
+        "word": "break",
+        "start": 50.78,
+        "end": 51.22,
+        "probability": 0.91
+      }
+    ]
+  },
+  {
+    "slide_id": 7,
+    "image_path": "slides\\slide_007_at_51.0s.jpg",
+    "timestamp_start": 51.000000000000185,
+    "timestamp_end": 55.00000000000024,
+    "word_count": 11,
+    "transcript_text": "that's what we call spaghetti code There is so much interdependency",
+    "words": [
+      {
+        "word": "that's",
+        "start": 51.22,
+        "end": 51.9,
+        "probability": 0.84
+      },
+      {
+        "word": "what",
+        "start": 51.9,
+        "end": 52.04,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 52.04,
+        "end": 52.18,
+        "probability": 1.0
+      },
+      {
+        "word": "call",
+        "start": 52.18,
+        "end": 52.46,
+        "probability": 1.0
+      },
+      {
+        "word": "spaghetti",
+        "start": 52.46,
+        "end": 53.1,
+        "probability": 0.95
+      },
+      {
+        "word": "code",
+        "start": 53.1,
+        "end": 53.56,
+        "probability": 1.0
+      },
+      {
+        "word": "There",
+        "start": 53.56,
+        "end": 54.08,
+        "probability": 0.97
+      },
+      {
+        "word": "is",
+        "start": 54.08,
+        "end": 54.24,
+        "probability": 0.98
+      },
+      {
+        "word": "so",
+        "start": 54.24,
+        "end": 54.42,
+        "probability": 1.0
+      },
+      {
+        "word": "much",
+        "start": 54.42,
+        "end": 54.76,
+        "probability": 1.0
+      },
+      {
+        "word": "interdependency",
+        "start": 54.76,
+        "end": 55.8,
+        "probability": 0.98
+      }
+    ]
+  },
+  {
+    "slide_id": 8,
+    "image_path": "slides\\slide_008_at_55.0s.jpg",
+    "timestamp_start": 55.00000000000024,
+    "timestamp_end": 59.0000000000003,
+    "word_count": 7,
+    "transcript_text": "between all these functions it becomes problematic",
+    "words": [
+      {
+        "word": "between",
+        "start": 55.8,
+        "end": 56.06,
+        "probability": 0.99
+      },
+      {
+        "word": "all",
+        "start": 56.06,
+        "end": 56.42,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 56.42,
+        "end": 56.6,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 56.6,
+        "end": 57.08,
+        "probability": 1.0
+      },
+      {
+        "word": "it",
+        "start": 57.08,
+        "end": 57.5,
+        "probability": 0.51
+      },
+      {
+        "word": "becomes",
+        "start": 57.5,
+        "end": 57.88,
+        "probability": 1.0
+      },
+      {
+        "word": "problematic",
+        "start": 57.88,
+        "end": 58.9,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 9,
+    "image_path": "slides\\slide_009_at_59.0s.jpg",
+    "timestamp_start": 59.0000000000003,
+    "timestamp_end": 76.00000000000054,
+    "word_count": 42,
+    "transcript_text": "Object -oriented programming came to solve this problem in object -oriented programming We combine a group of related variables and functions into a unit We call that unit an object we refer to these variables as properties and the functions as methods",
+    "words": [
+      {
+        "word": "Object",
+        "start": 59.44,
+        "end": 59.9,
+        "probability": 0.59
+      },
+      {
+        "word": "-oriented",
+        "start": 59.9,
+        "end": 60.16,
+        "probability": 0.8
+      },
+      {
+        "word": "programming",
+        "start": 60.16,
+        "end": 60.66,
+        "probability": 1.0
+      },
+      {
+        "word": "came",
+        "start": 60.66,
+        "end": 61.04,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 61.04,
+        "end": 61.28,
+        "probability": 1.0
+      },
+      {
+        "word": "solve",
+        "start": 61.28,
+        "end": 61.54,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 61.54,
+        "end": 61.7,
+        "probability": 1.0
+      },
+      {
+        "word": "problem",
+        "start": 61.7,
+        "end": 62.16,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 62.16,
+        "end": 62.82,
+        "probability": 0.73
+      },
+      {
+        "word": "object",
+        "start": 62.82,
+        "end": 63.16,
+        "probability": 0.98
+      },
+      {
+        "word": "-oriented",
+        "start": 63.16,
+        "end": 63.4,
+        "probability": 0.84
+      },
+      {
+        "word": "programming",
+        "start": 63.4,
+        "end": 63.9,
+        "probability": 0.99
+      },
+      {
+        "word": "We",
+        "start": 63.9,
+        "end": 64.12,
+        "probability": 0.62
+      },
+      {
+        "word": "combine",
+        "start": 64.12,
+        "end": 64.58,
+        "probability": 0.88
+      },
+      {
+        "word": "a",
+        "start": 64.58,
+        "end": 64.88,
+        "probability": 0.99
+      },
+      {
+        "word": "group",
+        "start": 64.88,
+        "end": 65.16,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 65.16,
+        "end": 65.36,
+        "probability": 1.0
+      },
+      {
+        "word": "related",
+        "start": 65.36,
+        "end": 65.82,
+        "probability": 1.0
+      },
+      {
+        "word": "variables",
+        "start": 65.82,
+        "end": 66.42,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 66.42,
+        "end": 66.8,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 66.8,
+        "end": 67.36,
+        "probability": 1.0
+      },
+      {
+        "word": "into",
+        "start": 67.36,
+        "end": 67.74,
+        "probability": 0.98
+      },
+      {
+        "word": "a",
+        "start": 67.74,
+        "end": 68.04,
+        "probability": 1.0
+      },
+      {
+        "word": "unit",
+        "start": 68.04,
+        "end": 68.4,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 68.4,
+        "end": 69.1,
+        "probability": 0.5
+      },
+      {
+        "word": "call",
+        "start": 69.1,
+        "end": 69.38,
+        "probability": 0.99
+      },
+      {
+        "word": "that",
+        "start": 69.38,
+        "end": 69.54,
+        "probability": 1.0
+      },
+      {
+        "word": "unit",
+        "start": 69.54,
+        "end": 69.88,
+        "probability": 1.0
+      },
+      {
+        "word": "an",
+        "start": 69.88,
+        "end": 70.4,
+        "probability": 0.97
+      },
+      {
+        "word": "object",
+        "start": 70.4,
+        "end": 71.02,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 71.02,
+        "end": 71.7,
+        "probability": 0.37
+      },
+      {
+        "word": "refer",
+        "start": 71.7,
+        "end": 71.96,
+        "probability": 0.96
+      },
+      {
+        "word": "to",
+        "start": 71.96,
+        "end": 72.12,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 72.12,
+        "end": 72.28,
+        "probability": 0.94
+      },
+      {
+        "word": "variables",
+        "start": 72.28,
+        "end": 72.78,
+        "probability": 1.0
+      },
+      {
+        "word": "as",
+        "start": 72.78,
+        "end": 73.2,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 73.2,
+        "end": 73.82,
+        "probability": 0.86
+      },
+      {
+        "word": "and",
+        "start": 73.82,
+        "end": 74.54,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 74.54,
+        "end": 74.72,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 74.72,
+        "end": 75.16,
+        "probability": 0.98
+      },
+      {
+        "word": "as",
+        "start": 75.16,
+        "end": 75.66,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 75.66,
+        "end": 76.14,
+        "probability": 0.95
+      }
+    ]
+  },
+  {
+    "slide_id": 10,
+    "image_path": "slides\\slide_010_at_76.0s.jpg",
+    "timestamp_start": 76.00000000000054,
+    "timestamp_end": 84.00000000000065,
+    "word_count": 21,
+    "transcript_text": "Here is an example Think of a car a car is an object with properties such as make Model and color",
+    "words": [
+      {
+        "word": "Here",
+        "start": 76.14,
+        "end": 76.82,
+        "probability": 0.66
+      },
+      {
+        "word": "is",
+        "start": 76.82,
+        "end": 76.92,
+        "probability": 0.69
+      },
+      {
+        "word": "an",
+        "start": 76.92,
+        "end": 77.06,
+        "probability": 1.0
+      },
+      {
+        "word": "example",
+        "start": 77.06,
+        "end": 77.56,
+        "probability": 1.0
+      },
+      {
+        "word": "Think",
+        "start": 77.56,
+        "end": 78.26,
+        "probability": 0.74
+      },
+      {
+        "word": "of",
+        "start": 78.26,
+        "end": 78.38,
+        "probability": 0.99
+      },
+      {
+        "word": "a",
+        "start": 78.38,
+        "end": 78.56,
+        "probability": 0.99
+      },
+      {
+        "word": "car",
+        "start": 78.56,
+        "end": 78.8,
+        "probability": 0.98
+      },
+      {
+        "word": "a",
+        "start": 78.8,
+        "end": 79.52,
+        "probability": 0.19
+      },
+      {
+        "word": "car",
+        "start": 79.52,
+        "end": 79.76,
+        "probability": 0.99
+      },
+      {
+        "word": "is",
+        "start": 79.76,
+        "end": 79.94,
+        "probability": 0.99
+      },
+      {
+        "word": "an",
+        "start": 79.94,
+        "end": 80.14,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 80.14,
+        "end": 80.5,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 80.5,
+        "end": 80.74,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 80.74,
+        "end": 81.42,
+        "probability": 1.0
+      },
+      {
+        "word": "such",
+        "start": 81.42,
+        "end": 81.86,
+        "probability": 0.99
+      },
+      {
+        "word": "as",
+        "start": 81.86,
+        "end": 82.08,
+        "probability": 1.0
+      },
+      {
+        "word": "make",
+        "start": 82.08,
+        "end": 82.44,
+        "probability": 0.96
+      },
+      {
+        "word": "Model",
+        "start": 82.44,
+        "end": 83.18,
+        "probability": 0.25
+      },
+      {
+        "word": "and",
+        "start": 83.18,
+        "end": 83.7,
+        "probability": 0.99
+      },
+      {
+        "word": "color",
+        "start": 83.7,
+        "end": 84.12,
+        "probability": 0.97
+      }
+    ]
+  },
+  {
+    "slide_id": 11,
+    "image_path": "slides\\slide_011_at_84.0s.jpg",
+    "timestamp_start": 84.00000000000065,
+    "timestamp_end": 87.2000000000007,
+    "word_count": 7,
+    "transcript_text": "and methods like start stop and move",
+    "words": [
+      {
+        "word": "and",
+        "start": 84.12,
+        "end": 84.72,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 84.72,
+        "end": 85.14,
+        "probability": 1.0
+      },
+      {
+        "word": "like",
+        "start": 85.14,
+        "end": 85.38,
+        "probability": 0.99
+      },
+      {
+        "word": "start",
+        "start": 85.38,
+        "end": 85.96,
+        "probability": 0.96
+      },
+      {
+        "word": "stop",
+        "start": 85.96,
+        "end": 86.8,
+        "probability": 0.96
+      },
+      {
+        "word": "and",
+        "start": 86.8,
+        "end": 87.2,
+        "probability": 0.99
+      },
+      {
+        "word": "move",
+        "start": 87.2,
+        "end": 87.7,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 12,
+    "image_path": "slides\\slide_012_at_87.2s.jpg",
+    "timestamp_start": 87.2000000000007,
+    "timestamp_end": 95.20000000000081,
+    "word_count": 24,
+    "transcript_text": "now you might say but mosh We don't have cars in our programs. Give me a real programming example Okay think of the local",
+    "words": [
+      {
+        "word": "now",
+        "start": 87.7,
+        "end": 88.3,
+        "probability": 0.79
+      },
+      {
+        "word": "you",
+        "start": 88.3,
+        "end": 88.42,
+        "probability": 0.77
+      },
+      {
+        "word": "might",
+        "start": 88.42,
+        "end": 88.56,
+        "probability": 1.0
+      },
+      {
+        "word": "say",
+        "start": 88.56,
+        "end": 88.84,
+        "probability": 1.0
+      },
+      {
+        "word": "but",
+        "start": 88.84,
+        "end": 89.16,
+        "probability": 0.5
+      },
+      {
+        "word": "mosh",
+        "start": 89.16,
+        "end": 89.46,
+        "probability": 0.64
+      },
+      {
+        "word": "We",
+        "start": 89.46,
+        "end": 89.7,
+        "probability": 0.68
+      },
+      {
+        "word": "don't",
+        "start": 89.7,
+        "end": 89.82,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 89.82,
+        "end": 90.1,
+        "probability": 1.0
+      },
+      {
+        "word": "cars",
+        "start": 90.1,
+        "end": 90.4,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 90.4,
+        "end": 90.58,
+        "probability": 1.0
+      },
+      {
+        "word": "our",
+        "start": 90.58,
+        "end": 90.74,
+        "probability": 1.0
+      },
+      {
+        "word": "programs.",
+        "start": 90.74,
+        "end": 91.3,
+        "probability": 0.99
+      },
+      {
+        "word": "Give",
+        "start": 91.3,
+        "end": 91.76,
+        "probability": 1.0
+      },
+      {
+        "word": "me",
+        "start": 91.76,
+        "end": 91.9,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 91.9,
+        "end": 92.18,
+        "probability": 1.0
+      },
+      {
+        "word": "real",
+        "start": 92.18,
+        "end": 92.48,
+        "probability": 1.0
+      },
+      {
+        "word": "programming",
+        "start": 92.48,
+        "end": 93.06,
+        "probability": 0.97
+      },
+      {
+        "word": "example",
+        "start": 93.06,
+        "end": 93.66,
+        "probability": 1.0
+      },
+      {
+        "word": "Okay",
+        "start": 93.66,
+        "end": 94.48,
+        "probability": 0.68
+      },
+      {
+        "word": "think",
+        "start": 94.48,
+        "end": 94.9,
+        "probability": 0.22
+      },
+      {
+        "word": "of",
+        "start": 94.9,
+        "end": 95.02,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 95.02,
+        "end": 95.2,
+        "probability": 1.0
+      },
+      {
+        "word": "local",
+        "start": 95.2,
+        "end": 95.5,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 13,
+    "image_path": "slides\\slide_013_at_95.2s.jpg",
+    "timestamp_start": 95.20000000000081,
+    "timestamp_end": 98.00000000000085,
+    "word_count": 6,
+    "transcript_text": "storage object in your browsers every",
+    "words": [
+      {
+        "word": "storage",
+        "start": 95.5,
+        "end": 96.0,
+        "probability": 0.99
+      },
+      {
+        "word": "object",
+        "start": 96.0,
+        "end": 96.52,
+        "probability": 0.99
+      },
+      {
+        "word": "in",
+        "start": 96.52,
+        "end": 96.7,
+        "probability": 0.99
+      },
+      {
+        "word": "your",
+        "start": 96.7,
+        "end": 96.88,
+        "probability": 1.0
+      },
+      {
+        "word": "browsers",
+        "start": 96.88,
+        "end": 97.36,
+        "probability": 0.93
+      },
+      {
+        "word": "every",
+        "start": 97.36,
+        "end": 98.12,
+        "probability": 0.18
+      }
+    ]
+  },
+  {
+    "slide_id": 14,
+    "image_path": "slides\\slide_014_at_98.0s.jpg",
+    "timestamp_start": 98.00000000000085,
+    "timestamp_end": 107.00000000000098,
+    "word_count": 23,
+    "transcript_text": "browser has a local storage object that Allows you to store data locally this local storage object has a property like length which",
+    "words": [
+      {
+        "word": "browser",
+        "start": 98.12,
+        "end": 98.52,
+        "probability": 0.99
+      },
+      {
+        "word": "has",
+        "start": 98.52,
+        "end": 99.02,
+        "probability": 0.94
+      },
+      {
+        "word": "a",
+        "start": 99.02,
+        "end": 99.22,
+        "probability": 1.0
+      },
+      {
+        "word": "local",
+        "start": 99.22,
+        "end": 99.5,
+        "probability": 0.98
+      },
+      {
+        "word": "storage",
+        "start": 99.5,
+        "end": 99.96,
+        "probability": 0.99
+      },
+      {
+        "word": "object",
+        "start": 99.96,
+        "end": 100.42,
+        "probability": 0.82
+      },
+      {
+        "word": "that",
+        "start": 100.42,
+        "end": 100.98,
+        "probability": 0.6
+      },
+      {
+        "word": "Allows",
+        "start": 100.98,
+        "end": 101.42,
+        "probability": 0.62
+      },
+      {
+        "word": "you",
+        "start": 101.42,
+        "end": 101.62,
+        "probability": 0.95
+      },
+      {
+        "word": "to",
+        "start": 101.62,
+        "end": 101.84,
+        "probability": 0.98
+      },
+      {
+        "word": "store",
+        "start": 101.84,
+        "end": 102.16,
+        "probability": 0.99
+      },
+      {
+        "word": "data",
+        "start": 102.16,
+        "end": 102.52,
+        "probability": 1.0
+      },
+      {
+        "word": "locally",
+        "start": 102.52,
+        "end": 103.0,
+        "probability": 0.97
+      },
+      {
+        "word": "this",
+        "start": 103.0,
+        "end": 103.84,
+        "probability": 0.75
+      },
+      {
+        "word": "local",
+        "start": 103.84,
+        "end": 104.24,
+        "probability": 0.99
+      },
+      {
+        "word": "storage",
+        "start": 104.24,
+        "end": 104.64,
+        "probability": 0.96
+      },
+      {
+        "word": "object",
+        "start": 104.64,
+        "end": 105.06,
+        "probability": 0.98
+      },
+      {
+        "word": "has",
+        "start": 105.06,
+        "end": 105.32,
+        "probability": 0.96
+      },
+      {
+        "word": "a",
+        "start": 105.32,
+        "end": 105.58,
+        "probability": 1.0
+      },
+      {
+        "word": "property",
+        "start": 105.58,
+        "end": 106.02,
+        "probability": 0.98
+      },
+      {
+        "word": "like",
+        "start": 106.02,
+        "end": 106.42,
+        "probability": 0.92
+      },
+      {
+        "word": "length",
+        "start": 106.42,
+        "end": 106.84,
+        "probability": 0.96
+      },
+      {
+        "word": "which",
+        "start": 106.84,
+        "end": 107.26,
+        "probability": 0.74
+      }
+    ]
+  },
+  {
+    "slide_id": 15,
+    "image_path": "slides\\slide_015_at_107.0s.jpg",
+    "timestamp_start": 107.00000000000098,
+    "timestamp_end": 111.80000000000105,
+    "word_count": 15,
+    "transcript_text": "returns the number of objects in the storage and Methods like set item and remove",
+    "words": [
+      {
+        "word": "returns",
+        "start": 107.26,
+        "end": 107.68,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 107.68,
+        "end": 107.88,
+        "probability": 0.99
+      },
+      {
+        "word": "number",
+        "start": 107.88,
+        "end": 108.08,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 108.08,
+        "end": 108.36,
+        "probability": 1.0
+      },
+      {
+        "word": "objects",
+        "start": 108.36,
+        "end": 108.64,
+        "probability": 0.96
+      },
+      {
+        "word": "in",
+        "start": 108.64,
+        "end": 108.82,
+        "probability": 0.97
+      },
+      {
+        "word": "the",
+        "start": 108.82,
+        "end": 108.96,
+        "probability": 0.98
+      },
+      {
+        "word": "storage",
+        "start": 108.96,
+        "end": 109.38,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 109.38,
+        "end": 109.7,
+        "probability": 0.97
+      },
+      {
+        "word": "Methods",
+        "start": 110.06,
+        "end": 110.34,
+        "probability": 0.47
+      },
+      {
+        "word": "like",
+        "start": 110.34,
+        "end": 110.62,
+        "probability": 0.8
+      },
+      {
+        "word": "set",
+        "start": 110.62,
+        "end": 110.88,
+        "probability": 0.98
+      },
+      {
+        "word": "item",
+        "start": 110.88,
+        "end": 111.24,
+        "probability": 0.96
+      },
+      {
+        "word": "and",
+        "start": 111.24,
+        "end": 111.7,
+        "probability": 1.0
+      },
+      {
+        "word": "remove",
+        "start": 111.7,
+        "end": 112.02,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 16,
+    "image_path": "slides\\slide_016_at_111.8s.jpg",
+    "timestamp_start": 111.80000000000105,
+    "timestamp_end": 120.80000000000118,
+    "word_count": 22,
+    "transcript_text": "item. So in object -oriented programming we group related variables and Functions that operate on them into objects and this is what",
+    "words": [
+      {
+        "word": "item.",
+        "start": 112.02,
+        "end": 112.46,
+        "probability": 0.99
+      },
+      {
+        "word": "So",
+        "start": 112.64,
+        "end": 113.28,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 113.28,
+        "end": 113.42,
+        "probability": 0.96
+      },
+      {
+        "word": "object",
+        "start": 113.42,
+        "end": 113.78,
+        "probability": 1.0
+      },
+      {
+        "word": "-oriented",
+        "start": 113.78,
+        "end": 114.06,
+        "probability": 0.74
+      },
+      {
+        "word": "programming",
+        "start": 114.06,
+        "end": 114.68,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 114.68,
+        "end": 115.16,
+        "probability": 0.78
+      },
+      {
+        "word": "group",
+        "start": 115.16,
+        "end": 115.48,
+        "probability": 0.99
+      },
+      {
+        "word": "related",
+        "start": 115.48,
+        "end": 116.08,
+        "probability": 0.99
+      },
+      {
+        "word": "variables",
+        "start": 116.08,
+        "end": 116.64,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 116.64,
+        "end": 116.96,
+        "probability": 0.98
+      },
+      {
+        "word": "Functions",
+        "start": 117.34,
+        "end": 117.64,
+        "probability": 0.65
+      },
+      {
+        "word": "that",
+        "start": 117.64,
+        "end": 117.88,
+        "probability": 1.0
+      },
+      {
+        "word": "operate",
+        "start": 117.88,
+        "end": 118.4,
+        "probability": 1.0
+      },
+      {
+        "word": "on",
+        "start": 118.4,
+        "end": 118.68,
+        "probability": 1.0
+      },
+      {
+        "word": "them",
+        "start": 118.68,
+        "end": 118.86,
+        "probability": 1.0
+      },
+      {
+        "word": "into",
+        "start": 118.86,
+        "end": 119.26,
+        "probability": 0.99
+      },
+      {
+        "word": "objects",
+        "start": 119.26,
+        "end": 119.92,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 119.92,
+        "end": 120.5,
+        "probability": 0.92
+      },
+      {
+        "word": "this",
+        "start": 120.5,
+        "end": 120.64,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 120.64,
+        "end": 120.74,
+        "probability": 1.0
+      },
+      {
+        "word": "what",
+        "start": 120.74,
+        "end": 120.88,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 17,
+    "image_path": "slides\\slide_017_at_120.8s.jpg",
+    "timestamp_start": 120.80000000000118,
+    "timestamp_end": 124.80000000000123,
+    "word_count": 12,
+    "transcript_text": "we call Encapsulation, let me show you an example of this in",
+    "words": [
+      {
+        "word": "we",
+        "start": 120.88,
+        "end": 121.04,
+        "probability": 1.0
+      },
+      {
+        "word": "call",
+        "start": 121.04,
+        "end": 121.48,
+        "probability": 1.0
+      },
+      {
+        "word": "Encapsulation,",
+        "start": 122.18,
+        "end": 122.68,
+        "probability": 0.93
+      },
+      {
+        "word": "let",
+        "start": 123.04,
+        "end": 123.54,
+        "probability": 1.0
+      },
+      {
+        "word": "me",
+        "start": 123.54,
+        "end": 123.64,
+        "probability": 1.0
+      },
+      {
+        "word": "show",
+        "start": 123.64,
+        "end": 123.74,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 123.74,
+        "end": 123.84,
+        "probability": 1.0
+      },
+      {
+        "word": "an",
+        "start": 123.84,
+        "end": 124.0,
+        "probability": 1.0
+      },
+      {
+        "word": "example",
+        "start": 124.0,
+        "end": 124.32,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 124.32,
+        "end": 124.48,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 124.48,
+        "end": 124.66,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 124.66,
+        "end": 124.92,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 18,
+    "image_path": "slides\\slide_018_at_124.8s.jpg",
+    "timestamp_start": 124.80000000000123,
+    "timestamp_end": 127.80000000000128,
+    "word_count": 8,
+    "transcript_text": "action So here we have three variables base",
+    "words": [
+      {
+        "word": "action",
+        "start": 124.92,
+        "end": 125.24,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 125.58,
+        "end": 126.2,
+        "probability": 0.55
+      },
+      {
+        "word": "here",
+        "start": 126.2,
+        "end": 126.36,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 126.36,
+        "end": 126.48,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 126.48,
+        "end": 126.62,
+        "probability": 1.0
+      },
+      {
+        "word": "three",
+        "start": 126.62,
+        "end": 126.92,
+        "probability": 0.98
+      },
+      {
+        "word": "variables",
+        "start": 126.92,
+        "end": 127.56,
+        "probability": 1.0
+      },
+      {
+        "word": "base",
+        "start": 127.56,
+        "end": 128.28,
+        "probability": 0.93
+      }
+    ]
+  },
+  {
+    "slide_id": 19,
+    "image_path": "slides\\slide_019_at_127.8s.jpg",
+    "timestamp_start": 127.80000000000128,
+    "timestamp_end": 150.00000000000003,
+    "word_count": 63,
+    "transcript_text": "salary Over time and rate below these we have a function to calculate the wage for an employee We refer to this kind of implementation as procedural. So we have variables on one side and functions on the other side They are decoupled now. Let's take a look at the object -oriented way to solve this problem We can have an employee object",
+    "words": [
+      {
+        "word": "salary",
+        "start": 128.28,
+        "end": 128.8,
+        "probability": 0.99
+      },
+      {
+        "word": "Over",
+        "start": 128.8,
+        "end": 129.52,
+        "probability": 0.65
+      },
+      {
+        "word": "time",
+        "start": 129.52,
+        "end": 129.88,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 129.88,
+        "end": 130.36,
+        "probability": 1.0
+      },
+      {
+        "word": "rate",
+        "start": 130.36,
+        "end": 130.74,
+        "probability": 0.92
+      },
+      {
+        "word": "below",
+        "start": 130.74,
+        "end": 131.56,
+        "probability": 0.95
+      },
+      {
+        "word": "these",
+        "start": 131.56,
+        "end": 131.86,
+        "probability": 0.97
+      },
+      {
+        "word": "we",
+        "start": 131.86,
+        "end": 132.06,
+        "probability": 0.96
+      },
+      {
+        "word": "have",
+        "start": 132.06,
+        "end": 132.18,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 132.18,
+        "end": 132.36,
+        "probability": 1.0
+      },
+      {
+        "word": "function",
+        "start": 132.36,
+        "end": 132.72,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 132.72,
+        "end": 133.18,
+        "probability": 1.0
+      },
+      {
+        "word": "calculate",
+        "start": 133.18,
+        "end": 133.66,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 133.66,
+        "end": 133.88,
+        "probability": 1.0
+      },
+      {
+        "word": "wage",
+        "start": 133.88,
+        "end": 134.16,
+        "probability": 0.99
+      },
+      {
+        "word": "for",
+        "start": 134.16,
+        "end": 134.34,
+        "probability": 0.97
+      },
+      {
+        "word": "an",
+        "start": 134.34,
+        "end": 134.52,
+        "probability": 1.0
+      },
+      {
+        "word": "employee",
+        "start": 134.52,
+        "end": 135.14,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 135.14,
+        "end": 135.9,
+        "probability": 0.68
+      },
+      {
+        "word": "refer",
+        "start": 135.9,
+        "end": 136.12,
+        "probability": 0.83
+      },
+      {
+        "word": "to",
+        "start": 136.12,
+        "end": 136.3,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 136.3,
+        "end": 136.5,
+        "probability": 1.0
+      },
+      {
+        "word": "kind",
+        "start": 136.5,
+        "end": 136.68,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 136.68,
+        "end": 136.84,
+        "probability": 1.0
+      },
+      {
+        "word": "implementation",
+        "start": 136.84,
+        "end": 137.44,
+        "probability": 1.0
+      },
+      {
+        "word": "as",
+        "start": 137.44,
+        "end": 137.84,
+        "probability": 1.0
+      },
+      {
+        "word": "procedural.",
+        "start": 137.84,
+        "end": 138.54,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 138.54,
+        "end": 139.1,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 139.1,
+        "end": 139.26,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 139.26,
+        "end": 139.42,
+        "probability": 1.0
+      },
+      {
+        "word": "variables",
+        "start": 139.42,
+        "end": 139.86,
+        "probability": 1.0
+      },
+      {
+        "word": "on",
+        "start": 139.86,
+        "end": 140.12,
+        "probability": 1.0
+      },
+      {
+        "word": "one",
+        "start": 140.12,
+        "end": 140.32,
+        "probability": 1.0
+      },
+      {
+        "word": "side",
+        "start": 140.32,
+        "end": 140.66,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 140.66,
+        "end": 141.14,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 141.14,
+        "end": 141.56,
+        "probability": 0.67
+      },
+      {
+        "word": "on",
+        "start": 141.56,
+        "end": 141.88,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 141.88,
+        "end": 142.02,
+        "probability": 1.0
+      },
+      {
+        "word": "other",
+        "start": 142.02,
+        "end": 142.26,
+        "probability": 1.0
+      },
+      {
+        "word": "side",
+        "start": 142.26,
+        "end": 142.64,
+        "probability": 0.99
+      },
+      {
+        "word": "They",
+        "start": 142.64,
+        "end": 142.92,
+        "probability": 0.69
+      },
+      {
+        "word": "are",
+        "start": 142.92,
+        "end": 143.16,
+        "probability": 0.99
+      },
+      {
+        "word": "decoupled",
+        "start": 143.16,
+        "end": 143.92,
+        "probability": 1.0
+      },
+      {
+        "word": "now.",
+        "start": 143.92,
+        "end": 144.78,
+        "probability": 0.56
+      },
+      {
+        "word": "Let's",
+        "start": 144.78,
+        "end": 144.98,
+        "probability": 1.0
+      },
+      {
+        "word": "take",
+        "start": 144.98,
+        "end": 145.1,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 145.1,
+        "end": 145.22,
+        "probability": 1.0
+      },
+      {
+        "word": "look",
+        "start": 145.22,
+        "end": 145.34,
+        "probability": 1.0
+      },
+      {
+        "word": "at",
+        "start": 145.34,
+        "end": 145.58,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 145.58,
+        "end": 145.76,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 145.76,
+        "end": 146.14,
+        "probability": 1.0
+      },
+      {
+        "word": "-oriented",
+        "start": 146.14,
+        "end": 146.38,
+        "probability": 0.6
+      },
+      {
+        "word": "way",
+        "start": 146.38,
+        "end": 146.76,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 146.76,
+        "end": 147.16,
+        "probability": 1.0
+      },
+      {
+        "word": "solve",
+        "start": 147.16,
+        "end": 147.4,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 147.4,
+        "end": 147.56,
+        "probability": 1.0
+      },
+      {
+        "word": "problem",
+        "start": 147.56,
+        "end": 148.06,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 148.06,
+        "end": 148.62,
+        "probability": 0.93
+      },
+      {
+        "word": "can",
+        "start": 148.62,
+        "end": 148.72,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 148.72,
+        "end": 148.88,
+        "probability": 1.0
+      },
+      {
+        "word": "an",
+        "start": 148.88,
+        "end": 149.08,
+        "probability": 1.0
+      },
+      {
+        "word": "employee",
+        "start": 149.08,
+        "end": 149.48,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 149.48,
+        "end": 150.02,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 20,
+    "image_path": "slides\\slide_020_at_150.0s.jpg",
+    "timestamp_start": 150.00000000000003,
+    "timestamp_end": 161.99999999999935,
+    "word_count": 31,
+    "transcript_text": "with three properties base salary Over time and rate and a method called get wage now, why is this better? Well, first of all, look at the get wage function. This",
+    "words": [
+      {
+        "word": "with",
+        "start": 150.02,
+        "end": 150.46,
+        "probability": 0.99
+      },
+      {
+        "word": "three",
+        "start": 150.46,
+        "end": 150.76,
+        "probability": 0.99
+      },
+      {
+        "word": "properties",
+        "start": 150.76,
+        "end": 151.46,
+        "probability": 0.98
+      },
+      {
+        "word": "base",
+        "start": 151.46,
+        "end": 152.16,
+        "probability": 0.46
+      },
+      {
+        "word": "salary",
+        "start": 152.16,
+        "end": 152.66,
+        "probability": 0.98
+      },
+      {
+        "word": "Over",
+        "start": 152.66,
+        "end": 153.36,
+        "probability": 0.68
+      },
+      {
+        "word": "time",
+        "start": 153.36,
+        "end": 153.66,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 153.66,
+        "end": 153.96,
+        "probability": 1.0
+      },
+      {
+        "word": "rate",
+        "start": 153.96,
+        "end": 154.24,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 154.24,
+        "end": 154.86,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 154.86,
+        "end": 154.98,
+        "probability": 1.0
+      },
+      {
+        "word": "method",
+        "start": 154.98,
+        "end": 155.34,
+        "probability": 1.0
+      },
+      {
+        "word": "called",
+        "start": 155.34,
+        "end": 155.76,
+        "probability": 1.0
+      },
+      {
+        "word": "get",
+        "start": 155.76,
+        "end": 156.26,
+        "probability": 0.99
+      },
+      {
+        "word": "wage",
+        "start": 156.26,
+        "end": 156.64,
+        "probability": 0.94
+      },
+      {
+        "word": "now,",
+        "start": 156.64,
+        "end": 157.36,
+        "probability": 0.6
+      },
+      {
+        "word": "why",
+        "start": 157.36,
+        "end": 157.54,
+        "probability": 0.99
+      },
+      {
+        "word": "is",
+        "start": 157.54,
+        "end": 157.66,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 157.66,
+        "end": 157.8,
+        "probability": 1.0
+      },
+      {
+        "word": "better?",
+        "start": 157.8,
+        "end": 158.16,
+        "probability": 1.0
+      },
+      {
+        "word": "Well,",
+        "start": 158.16,
+        "end": 159.0,
+        "probability": 0.83
+      },
+      {
+        "word": "first",
+        "start": 159.08,
+        "end": 159.32,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 159.32,
+        "end": 159.5,
+        "probability": 1.0
+      },
+      {
+        "word": "all,",
+        "start": 159.5,
+        "end": 159.7,
+        "probability": 1.0
+      },
+      {
+        "word": "look",
+        "start": 159.7,
+        "end": 160.04,
+        "probability": 1.0
+      },
+      {
+        "word": "at",
+        "start": 160.04,
+        "end": 160.18,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 160.18,
+        "end": 160.36,
+        "probability": 1.0
+      },
+      {
+        "word": "get",
+        "start": 160.36,
+        "end": 160.56,
+        "probability": 0.97
+      },
+      {
+        "word": "wage",
+        "start": 160.56,
+        "end": 160.9,
+        "probability": 0.94
+      },
+      {
+        "word": "function.",
+        "start": 160.9,
+        "end": 161.46,
+        "probability": 1.0
+      },
+      {
+        "word": "This",
+        "start": 161.46,
+        "end": 162.12,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 21,
+    "image_path": "slides\\slide_021_at_162.0s.jpg",
+    "timestamp_start": 161.99999999999935,
+    "timestamp_end": 166.79999999999907,
+    "word_count": 10,
+    "transcript_text": "function has no parameters in Contrast in a procedural example",
+    "words": [
+      {
+        "word": "function",
+        "start": 162.12,
+        "end": 162.4,
+        "probability": 1.0
+      },
+      {
+        "word": "has",
+        "start": 162.4,
+        "end": 162.66,
+        "probability": 1.0
+      },
+      {
+        "word": "no",
+        "start": 162.66,
+        "end": 163.04,
+        "probability": 1.0
+      },
+      {
+        "word": "parameters",
+        "start": 163.04,
+        "end": 163.7,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 163.7,
+        "end": 164.06,
+        "probability": 0.93
+      },
+      {
+        "word": "Contrast",
+        "start": 164.58,
+        "end": 165.0,
+        "probability": 0.79
+      },
+      {
+        "word": "in",
+        "start": 165.0,
+        "end": 165.6,
+        "probability": 0.99
+      },
+      {
+        "word": "a",
+        "start": 165.6,
+        "end": 165.76,
+        "probability": 1.0
+      },
+      {
+        "word": "procedural",
+        "start": 165.76,
+        "end": 166.22,
+        "probability": 1.0
+      },
+      {
+        "word": "example",
+        "start": 166.22,
+        "end": 166.84,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 22,
+    "image_path": "slides\\slide_022_at_166.8s.jpg",
+    "timestamp_start": 166.79999999999907,
+    "timestamp_end": 172.59999999999874,
+    "word_count": 16,
+    "transcript_text": "our get wage function has three parameters The reason in this implementation we don't have any",
+    "words": [
+      {
+        "word": "our",
+        "start": 166.84,
+        "end": 167.4,
+        "probability": 0.49
+      },
+      {
+        "word": "get",
+        "start": 167.4,
+        "end": 167.68,
+        "probability": 0.98
+      },
+      {
+        "word": "wage",
+        "start": 167.68,
+        "end": 167.94,
+        "probability": 0.98
+      },
+      {
+        "word": "function",
+        "start": 167.94,
+        "end": 168.34,
+        "probability": 1.0
+      },
+      {
+        "word": "has",
+        "start": 168.34,
+        "end": 168.72,
+        "probability": 1.0
+      },
+      {
+        "word": "three",
+        "start": 168.72,
+        "end": 169.26,
+        "probability": 0.98
+      },
+      {
+        "word": "parameters",
+        "start": 169.26,
+        "end": 169.86,
+        "probability": 0.99
+      },
+      {
+        "word": "The",
+        "start": 169.86,
+        "end": 170.64,
+        "probability": 0.27
+      },
+      {
+        "word": "reason",
+        "start": 170.64,
+        "end": 170.86,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 170.86,
+        "end": 171.08,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 171.08,
+        "end": 171.26,
+        "probability": 1.0
+      },
+      {
+        "word": "implementation",
+        "start": 171.26,
+        "end": 171.84,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 171.84,
+        "end": 172.06,
+        "probability": 0.56
+      },
+      {
+        "word": "don't",
+        "start": 172.06,
+        "end": 172.18,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 172.18,
+        "end": 172.36,
+        "probability": 1.0
+      },
+      {
+        "word": "any",
+        "start": 172.36,
+        "end": 172.64,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 23,
+    "image_path": "slides\\slide_023_at_172.6s.jpg",
+    "timestamp_start": 172.59999999999874,
+    "timestamp_end": 175.99999999999855,
+    "word_count": 8,
+    "transcript_text": "parameters is because all these parameters are actually",
+    "words": [
+      {
+        "word": "parameters",
+        "start": 172.64,
+        "end": 173.26,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 173.26,
+        "end": 173.82,
+        "probability": 0.92
+      },
+      {
+        "word": "because",
+        "start": 173.82,
+        "end": 174.1,
+        "probability": 1.0
+      },
+      {
+        "word": "all",
+        "start": 174.1,
+        "end": 174.5,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 174.5,
+        "end": 174.72,
+        "probability": 1.0
+      },
+      {
+        "word": "parameters",
+        "start": 174.72,
+        "end": 175.26,
+        "probability": 1.0
+      },
+      {
+        "word": "are",
+        "start": 175.26,
+        "end": 175.78,
+        "probability": 0.98
+      },
+      {
+        "word": "actually",
+        "start": 175.78,
+        "end": 176.16,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 24,
+    "image_path": "slides\\slide_024_at_176.0s.jpg",
+    "timestamp_start": 175.99999999999855,
+    "timestamp_end": 185.99999999999798,
+    "word_count": 27,
+    "transcript_text": "modeled as Properties of this object all these properties and the get wage function. They are highly related So they're part of one unit So one of",
+    "words": [
+      {
+        "word": "modeled",
+        "start": 176.16,
+        "end": 176.64,
+        "probability": 0.98
+      },
+      {
+        "word": "as",
+        "start": 176.64,
+        "end": 177.0,
+        "probability": 1.0
+      },
+      {
+        "word": "Properties",
+        "start": 177.38,
+        "end": 177.84,
+        "probability": 0.51
+      },
+      {
+        "word": "of",
+        "start": 177.84,
+        "end": 178.4,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 178.4,
+        "end": 178.58,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 178.58,
+        "end": 179.14,
+        "probability": 1.0
+      },
+      {
+        "word": "all",
+        "start": 179.14,
+        "end": 179.96,
+        "probability": 0.98
+      },
+      {
+        "word": "these",
+        "start": 179.96,
+        "end": 180.14,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 180.14,
+        "end": 180.72,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 180.72,
+        "end": 181.12,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 181.12,
+        "end": 181.32,
+        "probability": 0.89
+      },
+      {
+        "word": "get",
+        "start": 181.32,
+        "end": 181.48,
+        "probability": 0.99
+      },
+      {
+        "word": "wage",
+        "start": 181.48,
+        "end": 181.76,
+        "probability": 0.98
+      },
+      {
+        "word": "function.",
+        "start": 181.76,
+        "end": 182.24,
+        "probability": 1.0
+      },
+      {
+        "word": "They",
+        "start": 182.24,
+        "end": 182.7,
+        "probability": 0.99
+      },
+      {
+        "word": "are",
+        "start": 182.7,
+        "end": 182.86,
+        "probability": 0.74
+      },
+      {
+        "word": "highly",
+        "start": 182.86,
+        "end": 183.12,
+        "probability": 1.0
+      },
+      {
+        "word": "related",
+        "start": 183.12,
+        "end": 183.56,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 183.56,
+        "end": 183.8,
+        "probability": 0.56
+      },
+      {
+        "word": "they're",
+        "start": 183.8,
+        "end": 184.08,
+        "probability": 0.91
+      },
+      {
+        "word": "part",
+        "start": 184.08,
+        "end": 184.32,
+        "probability": 0.85
+      },
+      {
+        "word": "of",
+        "start": 184.32,
+        "end": 184.48,
+        "probability": 1.0
+      },
+      {
+        "word": "one",
+        "start": 184.48,
+        "end": 184.66,
+        "probability": 0.98
+      },
+      {
+        "word": "unit",
+        "start": 184.66,
+        "end": 185.1,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 185.1,
+        "end": 185.76,
+        "probability": 0.85
+      },
+      {
+        "word": "one",
+        "start": 185.76,
+        "end": 185.9,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 185.9,
+        "end": 186.02,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 25,
+    "image_path": "slides\\slide_025_at_186.0s.jpg",
+    "timestamp_start": 185.99999999999798,
+    "timestamp_end": 189.1999999999978,
+    "word_count": 8,
+    "transcript_text": "the symptoms of procedural code is functions with",
+    "words": [
+      {
+        "word": "the",
+        "start": 186.02,
+        "end": 186.2,
+        "probability": 1.0
+      },
+      {
+        "word": "symptoms",
+        "start": 186.2,
+        "end": 186.62,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 186.62,
+        "end": 186.92,
+        "probability": 1.0
+      },
+      {
+        "word": "procedural",
+        "start": 186.92,
+        "end": 187.46,
+        "probability": 0.98
+      },
+      {
+        "word": "code",
+        "start": 187.46,
+        "end": 187.86,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 187.86,
+        "end": 188.4,
+        "probability": 0.99
+      },
+      {
+        "word": "functions",
+        "start": 188.4,
+        "end": 188.92,
+        "probability": 0.98
+      },
+      {
+        "word": "with",
+        "start": 188.92,
+        "end": 189.24,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 26,
+    "image_path": "slides\\slide_026_at_189.2s.jpg",
+    "timestamp_start": 189.1999999999978,
+    "timestamp_end": 192.99999999999758,
+    "word_count": 11,
+    "transcript_text": "so many parameters when you write code in object -oriented way",
+    "words": [
+      {
+        "word": "so",
+        "start": 189.24,
+        "end": 189.54,
+        "probability": 1.0
+      },
+      {
+        "word": "many",
+        "start": 189.54,
+        "end": 189.78,
+        "probability": 1.0
+      },
+      {
+        "word": "parameters",
+        "start": 189.78,
+        "end": 190.46,
+        "probability": 0.99
+      },
+      {
+        "word": "when",
+        "start": 190.46,
+        "end": 191.32,
+        "probability": 0.5
+      },
+      {
+        "word": "you",
+        "start": 191.32,
+        "end": 191.42,
+        "probability": 1.0
+      },
+      {
+        "word": "write",
+        "start": 191.42,
+        "end": 191.62,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 191.62,
+        "end": 191.92,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 191.92,
+        "end": 192.12,
+        "probability": 0.99
+      },
+      {
+        "word": "object",
+        "start": 192.12,
+        "end": 192.52,
+        "probability": 0.98
+      },
+      {
+        "word": "-oriented",
+        "start": 192.52,
+        "end": 192.82,
+        "probability": 0.75
+      },
+      {
+        "word": "way",
+        "start": 192.82,
+        "end": 193.16,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 27,
+    "image_path": "slides\\slide_027_at_193.0s.jpg",
+    "timestamp_start": 192.99999999999758,
+    "timestamp_end": 195.19999999999746,
+    "word_count": 6,
+    "transcript_text": "your functions end up having fewer",
+    "words": [
+      {
+        "word": "your",
+        "start": 193.16,
+        "end": 193.66,
+        "probability": 0.92
+      },
+      {
+        "word": "functions",
+        "start": 193.66,
+        "end": 194.16,
+        "probability": 1.0
+      },
+      {
+        "word": "end",
+        "start": 194.16,
+        "end": 194.52,
+        "probability": 1.0
+      },
+      {
+        "word": "up",
+        "start": 194.52,
+        "end": 194.7,
+        "probability": 1.0
+      },
+      {
+        "word": "having",
+        "start": 194.7,
+        "end": 194.92,
+        "probability": 1.0
+      },
+      {
+        "word": "fewer",
+        "start": 194.92,
+        "end": 195.36,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 28,
+    "image_path": "slides\\slide_028_at_195.2s.jpg",
+    "timestamp_start": 195.19999999999746,
+    "timestamp_end": 218.79999999999612,
+    "word_count": 63,
+    "transcript_text": "and fewer parameters as Uncle Bob says the best functions are those with no parameters the fewer the number of parameters The easier it is to use and maintain that function. So that's encapsulation now. Let's look at abstraction Think of a DVD player as an object This DVD player has a complex logic board on the inside and a few buttons on",
+    "words": [
+      {
+        "word": "and",
+        "start": 195.36,
+        "end": 195.64,
+        "probability": 1.0
+      },
+      {
+        "word": "fewer",
+        "start": 195.64,
+        "end": 195.94,
+        "probability": 1.0
+      },
+      {
+        "word": "parameters",
+        "start": 195.94,
+        "end": 196.58,
+        "probability": 0.97
+      },
+      {
+        "word": "as",
+        "start": 196.58,
+        "end": 196.92,
+        "probability": 0.99
+      },
+      {
+        "word": "Uncle",
+        "start": 197.42,
+        "end": 197.82,
+        "probability": 0.89
+      },
+      {
+        "word": "Bob",
+        "start": 197.82,
+        "end": 198.06,
+        "probability": 0.96
+      },
+      {
+        "word": "says",
+        "start": 198.06,
+        "end": 198.46,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 198.46,
+        "end": 198.98,
+        "probability": 0.99
+      },
+      {
+        "word": "best",
+        "start": 198.98,
+        "end": 199.36,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 199.36,
+        "end": 199.86,
+        "probability": 0.98
+      },
+      {
+        "word": "are",
+        "start": 199.86,
+        "end": 200.14,
+        "probability": 0.99
+      },
+      {
+        "word": "those",
+        "start": 200.14,
+        "end": 200.56,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 200.56,
+        "end": 200.78,
+        "probability": 1.0
+      },
+      {
+        "word": "no",
+        "start": 200.78,
+        "end": 201.08,
+        "probability": 0.99
+      },
+      {
+        "word": "parameters",
+        "start": 201.08,
+        "end": 201.66,
+        "probability": 0.95
+      },
+      {
+        "word": "the",
+        "start": 201.66,
+        "end": 202.28,
+        "probability": 0.6
+      },
+      {
+        "word": "fewer",
+        "start": 202.28,
+        "end": 202.56,
+        "probability": 0.98
+      },
+      {
+        "word": "the",
+        "start": 202.56,
+        "end": 202.8,
+        "probability": 0.95
+      },
+      {
+        "word": "number",
+        "start": 202.8,
+        "end": 203.0,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 203.0,
+        "end": 203.3,
+        "probability": 1.0
+      },
+      {
+        "word": "parameters",
+        "start": 203.3,
+        "end": 203.76,
+        "probability": 0.87
+      },
+      {
+        "word": "The",
+        "start": 203.76,
+        "end": 204.22,
+        "probability": 0.27
+      },
+      {
+        "word": "easier",
+        "start": 204.22,
+        "end": 204.6,
+        "probability": 1.0
+      },
+      {
+        "word": "it",
+        "start": 204.6,
+        "end": 204.78,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 204.78,
+        "end": 204.92,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 204.92,
+        "end": 205.12,
+        "probability": 1.0
+      },
+      {
+        "word": "use",
+        "start": 205.12,
+        "end": 205.36,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 205.36,
+        "end": 205.7,
+        "probability": 1.0
+      },
+      {
+        "word": "maintain",
+        "start": 205.7,
+        "end": 206.12,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 206.12,
+        "end": 206.34,
+        "probability": 1.0
+      },
+      {
+        "word": "function.",
+        "start": 206.34,
+        "end": 206.76,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 206.8,
+        "end": 207.48,
+        "probability": 1.0
+      },
+      {
+        "word": "that's",
+        "start": 207.48,
+        "end": 207.78,
+        "probability": 1.0
+      },
+      {
+        "word": "encapsulation",
+        "start": 207.78,
+        "end": 208.52,
+        "probability": 0.92
+      },
+      {
+        "word": "now.",
+        "start": 208.52,
+        "end": 209.26,
+        "probability": 0.64
+      },
+      {
+        "word": "Let's",
+        "start": 209.26,
+        "end": 209.48,
+        "probability": 1.0
+      },
+      {
+        "word": "look",
+        "start": 209.48,
+        "end": 209.62,
+        "probability": 1.0
+      },
+      {
+        "word": "at",
+        "start": 209.62,
+        "end": 209.82,
+        "probability": 1.0
+      },
+      {
+        "word": "abstraction",
+        "start": 209.82,
+        "end": 210.48,
+        "probability": 0.99
+      },
+      {
+        "word": "Think",
+        "start": 210.48,
+        "end": 211.36,
+        "probability": 0.89
+      },
+      {
+        "word": "of",
+        "start": 211.36,
+        "end": 211.5,
+        "probability": 0.99
+      },
+      {
+        "word": "a",
+        "start": 211.5,
+        "end": 211.64,
+        "probability": 0.98
+      },
+      {
+        "word": "DVD",
+        "start": 211.64,
+        "end": 211.98,
+        "probability": 0.97
+      },
+      {
+        "word": "player",
+        "start": 211.98,
+        "end": 212.36,
+        "probability": 1.0
+      },
+      {
+        "word": "as",
+        "start": 212.36,
+        "end": 212.68,
+        "probability": 0.99
+      },
+      {
+        "word": "an",
+        "start": 212.68,
+        "end": 212.9,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 212.9,
+        "end": 213.34,
+        "probability": 1.0
+      },
+      {
+        "word": "This",
+        "start": 213.34,
+        "end": 214.12,
+        "probability": 0.47
+      },
+      {
+        "word": "DVD",
+        "start": 214.12,
+        "end": 214.46,
+        "probability": 0.99
+      },
+      {
+        "word": "player",
+        "start": 214.46,
+        "end": 214.84,
+        "probability": 1.0
+      },
+      {
+        "word": "has",
+        "start": 214.84,
+        "end": 215.1,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 215.1,
+        "end": 215.34,
+        "probability": 1.0
+      },
+      {
+        "word": "complex",
+        "start": 215.34,
+        "end": 215.78,
+        "probability": 1.0
+      },
+      {
+        "word": "logic",
+        "start": 215.78,
+        "end": 216.14,
+        "probability": 0.99
+      },
+      {
+        "word": "board",
+        "start": 216.14,
+        "end": 216.48,
+        "probability": 0.99
+      },
+      {
+        "word": "on",
+        "start": 216.48,
+        "end": 216.76,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 216.76,
+        "end": 216.9,
+        "probability": 1.0
+      },
+      {
+        "word": "inside",
+        "start": 216.9,
+        "end": 217.34,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 217.34,
+        "end": 218.02,
+        "probability": 0.95
+      },
+      {
+        "word": "a",
+        "start": 218.02,
+        "end": 218.1,
+        "probability": 0.9
+      },
+      {
+        "word": "few",
+        "start": 218.1,
+        "end": 218.28,
+        "probability": 1.0
+      },
+      {
+        "word": "buttons",
+        "start": 218.28,
+        "end": 218.68,
+        "probability": 1.0
+      },
+      {
+        "word": "on",
+        "start": 218.68,
+        "end": 218.92,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 29,
+    "image_path": "slides\\slide_029_at_218.8s.jpg",
+    "timestamp_start": 218.79999999999612,
+    "timestamp_end": 226.79999999999566,
+    "word_count": 25,
+    "transcript_text": "the outside that you interact with You simply press the play button and you don't care what happens on the inside. All that complexity is",
+    "words": [
+      {
+        "word": "the",
+        "start": 218.92,
+        "end": 219.08,
+        "probability": 1.0
+      },
+      {
+        "word": "outside",
+        "start": 219.08,
+        "end": 219.44,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 219.44,
+        "end": 219.66,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 219.66,
+        "end": 219.78,
+        "probability": 1.0
+      },
+      {
+        "word": "interact",
+        "start": 219.78,
+        "end": 220.22,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 220.22,
+        "end": 220.68,
+        "probability": 0.99
+      },
+      {
+        "word": "You",
+        "start": 220.68,
+        "end": 221.26,
+        "probability": 0.86
+      },
+      {
+        "word": "simply",
+        "start": 221.26,
+        "end": 221.58,
+        "probability": 0.99
+      },
+      {
+        "word": "press",
+        "start": 221.58,
+        "end": 221.9,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 221.9,
+        "end": 222.08,
+        "probability": 1.0
+      },
+      {
+        "word": "play",
+        "start": 222.08,
+        "end": 222.3,
+        "probability": 0.98
+      },
+      {
+        "word": "button",
+        "start": 222.3,
+        "end": 222.66,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 222.66,
+        "end": 222.98,
+        "probability": 0.92
+      },
+      {
+        "word": "you",
+        "start": 222.98,
+        "end": 223.12,
+        "probability": 1.0
+      },
+      {
+        "word": "don't",
+        "start": 223.12,
+        "end": 223.34,
+        "probability": 1.0
+      },
+      {
+        "word": "care",
+        "start": 223.34,
+        "end": 223.68,
+        "probability": 1.0
+      },
+      {
+        "word": "what",
+        "start": 223.68,
+        "end": 224.16,
+        "probability": 0.91
+      },
+      {
+        "word": "happens",
+        "start": 224.16,
+        "end": 224.62,
+        "probability": 0.99
+      },
+      {
+        "word": "on",
+        "start": 224.62,
+        "end": 224.8,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 224.8,
+        "end": 224.92,
+        "probability": 1.0
+      },
+      {
+        "word": "inside.",
+        "start": 224.92,
+        "end": 225.36,
+        "probability": 1.0
+      },
+      {
+        "word": "All",
+        "start": 225.46,
+        "end": 226.02,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 226.02,
+        "end": 226.24,
+        "probability": 1.0
+      },
+      {
+        "word": "complexity",
+        "start": 226.24,
+        "end": 226.78,
+        "probability": 0.98
+      },
+      {
+        "word": "is",
+        "start": 226.78,
+        "end": 227.06,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 30,
+    "image_path": "slides\\slide_030_at_226.8s.jpg",
+    "timestamp_start": 226.79999999999566,
+    "timestamp_end": 234.7999999999952,
+    "word_count": 25,
+    "transcript_text": "hidden from you This is abstraction in practice. We can use the same technique in our objects So we can hide some of the properties",
+    "words": [
+      {
+        "word": "hidden",
+        "start": 227.06,
+        "end": 227.32,
+        "probability": 1.0
+      },
+      {
+        "word": "from",
+        "start": 227.32,
+        "end": 227.58,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 227.58,
+        "end": 227.88,
+        "probability": 1.0
+      },
+      {
+        "word": "This",
+        "start": 227.88,
+        "end": 228.34,
+        "probability": 0.96
+      },
+      {
+        "word": "is",
+        "start": 228.34,
+        "end": 228.48,
+        "probability": 1.0
+      },
+      {
+        "word": "abstraction",
+        "start": 228.48,
+        "end": 229.18,
+        "probability": 0.97
+      },
+      {
+        "word": "in",
+        "start": 229.18,
+        "end": 229.54,
+        "probability": 0.97
+      },
+      {
+        "word": "practice.",
+        "start": 229.54,
+        "end": 230.08,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 230.2,
+        "end": 230.76,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 230.76,
+        "end": 230.9,
+        "probability": 1.0
+      },
+      {
+        "word": "use",
+        "start": 230.9,
+        "end": 231.04,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 231.04,
+        "end": 231.22,
+        "probability": 1.0
+      },
+      {
+        "word": "same",
+        "start": 231.22,
+        "end": 231.46,
+        "probability": 1.0
+      },
+      {
+        "word": "technique",
+        "start": 231.46,
+        "end": 231.92,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 231.92,
+        "end": 232.16,
+        "probability": 1.0
+      },
+      {
+        "word": "our",
+        "start": 232.16,
+        "end": 232.36,
+        "probability": 1.0
+      },
+      {
+        "word": "objects",
+        "start": 232.36,
+        "end": 232.86,
+        "probability": 0.99
+      },
+      {
+        "word": "So",
+        "start": 232.86,
+        "end": 233.58,
+        "probability": 0.59
+      },
+      {
+        "word": "we",
+        "start": 233.58,
+        "end": 233.72,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 233.72,
+        "end": 233.88,
+        "probability": 1.0
+      },
+      {
+        "word": "hide",
+        "start": 233.88,
+        "end": 234.1,
+        "probability": 1.0
+      },
+      {
+        "word": "some",
+        "start": 234.1,
+        "end": 234.38,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 234.38,
+        "end": 234.5,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 234.5,
+        "end": 234.66,
+        "probability": 0.95
+      },
+      {
+        "word": "properties",
+        "start": 234.66,
+        "end": 235.3,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 31,
+    "image_path": "slides\\slide_031_at_234.8s.jpg",
+    "timestamp_start": 234.7999999999952,
+    "timestamp_end": 242.1999999999948,
+    "word_count": 22,
+    "transcript_text": "and methods from the outside and this gives us a couple of benefits First is that we'll make the interface of those",
+    "words": [
+      {
+        "word": "and",
+        "start": 235.3,
+        "end": 235.66,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 235.66,
+        "end": 236.0,
+        "probability": 0.98
+      },
+      {
+        "word": "from",
+        "start": 236.0,
+        "end": 236.28,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 236.28,
+        "end": 236.44,
+        "probability": 1.0
+      },
+      {
+        "word": "outside",
+        "start": 236.44,
+        "end": 236.86,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 236.86,
+        "end": 237.58,
+        "probability": 0.98
+      },
+      {
+        "word": "this",
+        "start": 237.58,
+        "end": 237.76,
+        "probability": 1.0
+      },
+      {
+        "word": "gives",
+        "start": 237.76,
+        "end": 237.96,
+        "probability": 1.0
+      },
+      {
+        "word": "us",
+        "start": 237.96,
+        "end": 238.16,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 238.16,
+        "end": 238.36,
+        "probability": 1.0
+      },
+      {
+        "word": "couple",
+        "start": 238.36,
+        "end": 238.6,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 238.6,
+        "end": 238.82,
+        "probability": 1.0
+      },
+      {
+        "word": "benefits",
+        "start": 238.82,
+        "end": 239.3,
+        "probability": 1.0
+      },
+      {
+        "word": "First",
+        "start": 239.3,
+        "end": 240.24,
+        "probability": 0.96
+      },
+      {
+        "word": "is",
+        "start": 240.24,
+        "end": 240.44,
+        "probability": 0.96
+      },
+      {
+        "word": "that",
+        "start": 240.44,
+        "end": 240.6,
+        "probability": 1.0
+      },
+      {
+        "word": "we'll",
+        "start": 240.6,
+        "end": 240.82,
+        "probability": 0.62
+      },
+      {
+        "word": "make",
+        "start": 240.82,
+        "end": 241.04,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 241.04,
+        "end": 241.32,
+        "probability": 1.0
+      },
+      {
+        "word": "interface",
+        "start": 241.32,
+        "end": 241.84,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 241.84,
+        "end": 242.1,
+        "probability": 1.0
+      },
+      {
+        "word": "those",
+        "start": 242.1,
+        "end": 242.3,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 32,
+    "image_path": "slides\\slide_032_at_242.2s.jpg",
+    "timestamp_start": 242.1999999999948,
+    "timestamp_end": 256.199999999994,
+    "word_count": 34,
+    "transcript_text": "objects simpler Using and understanding an object with a few properties and methods is easier than an object with several properties and methods The second benefit is that it helps us reduce the impact",
+    "words": [
+      {
+        "word": "objects",
+        "start": 242.3,
+        "end": 242.9,
+        "probability": 1.0
+      },
+      {
+        "word": "simpler",
+        "start": 242.9,
+        "end": 243.52,
+        "probability": 0.96
+      },
+      {
+        "word": "Using",
+        "start": 243.52,
+        "end": 244.36,
+        "probability": 0.51
+      },
+      {
+        "word": "and",
+        "start": 244.36,
+        "end": 244.68,
+        "probability": 0.57
+      },
+      {
+        "word": "understanding",
+        "start": 244.68,
+        "end": 245.26,
+        "probability": 1.0
+      },
+      {
+        "word": "an",
+        "start": 245.26,
+        "end": 245.48,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 245.48,
+        "end": 245.88,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 245.88,
+        "end": 246.12,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 246.12,
+        "end": 246.26,
+        "probability": 1.0
+      },
+      {
+        "word": "few",
+        "start": 246.26,
+        "end": 246.46,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 246.46,
+        "end": 247.02,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 247.02,
+        "end": 247.34,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 247.34,
+        "end": 247.74,
+        "probability": 0.99
+      },
+      {
+        "word": "is",
+        "start": 247.74,
+        "end": 248.22,
+        "probability": 1.0
+      },
+      {
+        "word": "easier",
+        "start": 248.22,
+        "end": 248.66,
+        "probability": 1.0
+      },
+      {
+        "word": "than",
+        "start": 248.66,
+        "end": 248.9,
+        "probability": 1.0
+      },
+      {
+        "word": "an",
+        "start": 248.9,
+        "end": 249.18,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 249.18,
+        "end": 249.56,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 249.56,
+        "end": 249.82,
+        "probability": 1.0
+      },
+      {
+        "word": "several",
+        "start": 249.82,
+        "end": 250.24,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 250.24,
+        "end": 250.84,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 250.84,
+        "end": 251.1,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 251.1,
+        "end": 251.58,
+        "probability": 1.0
+      },
+      {
+        "word": "The",
+        "start": 251.58,
+        "end": 252.46,
+        "probability": 0.96
+      },
+      {
+        "word": "second",
+        "start": 252.46,
+        "end": 252.74,
+        "probability": 1.0
+      },
+      {
+        "word": "benefit",
+        "start": 252.74,
+        "end": 253.32,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 253.32,
+        "end": 253.82,
+        "probability": 0.98
+      },
+      {
+        "word": "that",
+        "start": 253.82,
+        "end": 253.96,
+        "probability": 1.0
+      },
+      {
+        "word": "it",
+        "start": 253.96,
+        "end": 254.1,
+        "probability": 1.0
+      },
+      {
+        "word": "helps",
+        "start": 254.1,
+        "end": 254.46,
+        "probability": 1.0
+      },
+      {
+        "word": "us",
+        "start": 254.46,
+        "end": 254.9,
+        "probability": 1.0
+      },
+      {
+        "word": "reduce",
+        "start": 254.9,
+        "end": 255.4,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 255.4,
+        "end": 255.64,
+        "probability": 1.0
+      },
+      {
+        "word": "impact",
+        "start": 255.64,
+        "end": 256.22,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 33,
+    "image_path": "slides\\slide_033_at_256.2s.jpg",
+    "timestamp_start": 256.199999999994,
+    "timestamp_end": 303.7999999999913,
+    "word_count": 123,
+    "transcript_text": "of change Let's imagine that tomorrow we change these inner or private methods None of these changes will leak to the outside because we don't have any code that touches these methods Outside of their containing object we may delete a method or change its parameters But none of these changes will impact the rest of the application's code So with abstraction we reduce the impact of change now the third core concept in object -oriented programming inheritance Inheritance is a mechanism that allows you to eliminate redundant code. Here's an example Think of HTML elements like text boxes drop -down lists checkboxes and so on All these elements have a few things in common They should have properties like hidden and inner",
+    "words": [
+      {
+        "word": "of",
+        "start": 256.22,
+        "end": 256.42,
+        "probability": 1.0
+      },
+      {
+        "word": "change",
+        "start": 256.42,
+        "end": 256.92,
+        "probability": 1.0
+      },
+      {
+        "word": "Let's",
+        "start": 256.92,
+        "end": 257.7,
+        "probability": 0.93
+      },
+      {
+        "word": "imagine",
+        "start": 257.7,
+        "end": 258.08,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 258.08,
+        "end": 258.28,
+        "probability": 0.99
+      },
+      {
+        "word": "tomorrow",
+        "start": 258.28,
+        "end": 258.78,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 258.78,
+        "end": 259.28,
+        "probability": 0.83
+      },
+      {
+        "word": "change",
+        "start": 259.28,
+        "end": 259.76,
+        "probability": 0.99
+      },
+      {
+        "word": "these",
+        "start": 259.76,
+        "end": 260.02,
+        "probability": 0.99
+      },
+      {
+        "word": "inner",
+        "start": 260.02,
+        "end": 260.48,
+        "probability": 1.0
+      },
+      {
+        "word": "or",
+        "start": 260.48,
+        "end": 260.86,
+        "probability": 1.0
+      },
+      {
+        "word": "private",
+        "start": 260.86,
+        "end": 261.42,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 261.42,
+        "end": 261.96,
+        "probability": 0.99
+      },
+      {
+        "word": "None",
+        "start": 261.96,
+        "end": 262.8,
+        "probability": 0.74
+      },
+      {
+        "word": "of",
+        "start": 262.8,
+        "end": 262.94,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 262.94,
+        "end": 263.08,
+        "probability": 1.0
+      },
+      {
+        "word": "changes",
+        "start": 263.08,
+        "end": 263.56,
+        "probability": 1.0
+      },
+      {
+        "word": "will",
+        "start": 263.56,
+        "end": 263.76,
+        "probability": 1.0
+      },
+      {
+        "word": "leak",
+        "start": 263.76,
+        "end": 264.04,
+        "probability": 0.98
+      },
+      {
+        "word": "to",
+        "start": 264.04,
+        "end": 264.24,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 264.24,
+        "end": 264.4,
+        "probability": 1.0
+      },
+      {
+        "word": "outside",
+        "start": 264.4,
+        "end": 264.88,
+        "probability": 1.0
+      },
+      {
+        "word": "because",
+        "start": 264.88,
+        "end": 265.26,
+        "probability": 0.92
+      },
+      {
+        "word": "we",
+        "start": 265.26,
+        "end": 265.44,
+        "probability": 1.0
+      },
+      {
+        "word": "don't",
+        "start": 265.44,
+        "end": 265.56,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 265.56,
+        "end": 265.78,
+        "probability": 1.0
+      },
+      {
+        "word": "any",
+        "start": 265.78,
+        "end": 266.08,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 266.08,
+        "end": 266.42,
+        "probability": 0.99
+      },
+      {
+        "word": "that",
+        "start": 266.42,
+        "end": 266.82,
+        "probability": 0.99
+      },
+      {
+        "word": "touches",
+        "start": 266.82,
+        "end": 267.14,
+        "probability": 0.95
+      },
+      {
+        "word": "these",
+        "start": 267.14,
+        "end": 267.44,
+        "probability": 0.99
+      },
+      {
+        "word": "methods",
+        "start": 267.44,
+        "end": 267.84,
+        "probability": 1.0
+      },
+      {
+        "word": "Outside",
+        "start": 267.84,
+        "end": 268.42,
+        "probability": 0.91
+      },
+      {
+        "word": "of",
+        "start": 268.42,
+        "end": 268.62,
+        "probability": 1.0
+      },
+      {
+        "word": "their",
+        "start": 268.62,
+        "end": 268.74,
+        "probability": 0.96
+      },
+      {
+        "word": "containing",
+        "start": 268.74,
+        "end": 269.32,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 269.32,
+        "end": 269.84,
+        "probability": 0.98
+      },
+      {
+        "word": "we",
+        "start": 269.84,
+        "end": 270.48,
+        "probability": 0.66
+      },
+      {
+        "word": "may",
+        "start": 270.48,
+        "end": 270.62,
+        "probability": 0.85
+      },
+      {
+        "word": "delete",
+        "start": 270.62,
+        "end": 270.94,
+        "probability": 0.99
+      },
+      {
+        "word": "a",
+        "start": 270.94,
+        "end": 271.08,
+        "probability": 0.99
+      },
+      {
+        "word": "method",
+        "start": 271.08,
+        "end": 271.44,
+        "probability": 0.99
+      },
+      {
+        "word": "or",
+        "start": 271.44,
+        "end": 271.86,
+        "probability": 0.99
+      },
+      {
+        "word": "change",
+        "start": 271.86,
+        "end": 272.2,
+        "probability": 1.0
+      },
+      {
+        "word": "its",
+        "start": 272.2,
+        "end": 272.42,
+        "probability": 0.99
+      },
+      {
+        "word": "parameters",
+        "start": 272.42,
+        "end": 272.96,
+        "probability": 1.0
+      },
+      {
+        "word": "But",
+        "start": 272.96,
+        "end": 273.48,
+        "probability": 0.82
+      },
+      {
+        "word": "none",
+        "start": 273.48,
+        "end": 273.74,
+        "probability": 0.99
+      },
+      {
+        "word": "of",
+        "start": 273.74,
+        "end": 273.86,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 273.86,
+        "end": 273.98,
+        "probability": 0.99
+      },
+      {
+        "word": "changes",
+        "start": 273.98,
+        "end": 274.4,
+        "probability": 1.0
+      },
+      {
+        "word": "will",
+        "start": 274.4,
+        "end": 274.66,
+        "probability": 1.0
+      },
+      {
+        "word": "impact",
+        "start": 274.66,
+        "end": 275.22,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 275.22,
+        "end": 275.48,
+        "probability": 1.0
+      },
+      {
+        "word": "rest",
+        "start": 275.48,
+        "end": 275.68,
+        "probability": 0.91
+      },
+      {
+        "word": "of",
+        "start": 275.68,
+        "end": 275.88,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 275.88,
+        "end": 276.06,
+        "probability": 1.0
+      },
+      {
+        "word": "application's",
+        "start": 276.06,
+        "end": 276.76,
+        "probability": 0.72
+      },
+      {
+        "word": "code",
+        "start": 276.76,
+        "end": 277.08,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 277.08,
+        "end": 277.84,
+        "probability": 0.68
+      },
+      {
+        "word": "with",
+        "start": 277.84,
+        "end": 278.32,
+        "probability": 0.98
+      },
+      {
+        "word": "abstraction",
+        "start": 278.32,
+        "end": 278.94,
+        "probability": 0.98
+      },
+      {
+        "word": "we",
+        "start": 278.94,
+        "end": 279.32,
+        "probability": 0.76
+      },
+      {
+        "word": "reduce",
+        "start": 279.32,
+        "end": 279.7,
+        "probability": 0.92
+      },
+      {
+        "word": "the",
+        "start": 279.7,
+        "end": 279.96,
+        "probability": 1.0
+      },
+      {
+        "word": "impact",
+        "start": 279.96,
+        "end": 280.44,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 280.44,
+        "end": 280.68,
+        "probability": 1.0
+      },
+      {
+        "word": "change",
+        "start": 280.68,
+        "end": 281.04,
+        "probability": 1.0
+      },
+      {
+        "word": "now",
+        "start": 281.04,
+        "end": 281.94,
+        "probability": 0.72
+      },
+      {
+        "word": "the",
+        "start": 281.94,
+        "end": 282.16,
+        "probability": 0.99
+      },
+      {
+        "word": "third",
+        "start": 282.16,
+        "end": 282.44,
+        "probability": 1.0
+      },
+      {
+        "word": "core",
+        "start": 282.44,
+        "end": 282.74,
+        "probability": 1.0
+      },
+      {
+        "word": "concept",
+        "start": 282.74,
+        "end": 283.28,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 283.28,
+        "end": 283.46,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 283.46,
+        "end": 283.8,
+        "probability": 1.0
+      },
+      {
+        "word": "-oriented",
+        "start": 283.8,
+        "end": 284.08,
+        "probability": 0.94
+      },
+      {
+        "word": "programming",
+        "start": 284.08,
+        "end": 284.43,
+        "probability": 1.0
+      },
+      {
+        "word": "inheritance",
+        "start": 284.94,
+        "end": 285.64,
+        "probability": 1.0
+      },
+      {
+        "word": "Inheritance",
+        "start": 286.32,
+        "end": 286.8,
+        "probability": 0.95
+      },
+      {
+        "word": "is",
+        "start": 286.8,
+        "end": 287.06,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 287.06,
+        "end": 287.3,
+        "probability": 1.0
+      },
+      {
+        "word": "mechanism",
+        "start": 287.3,
+        "end": 287.76,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 287.76,
+        "end": 288.06,
+        "probability": 0.97
+      },
+      {
+        "word": "allows",
+        "start": 288.06,
+        "end": 288.5,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 288.5,
+        "end": 288.72,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 288.72,
+        "end": 288.94,
+        "probability": 1.0
+      },
+      {
+        "word": "eliminate",
+        "start": 288.94,
+        "end": 289.58,
+        "probability": 1.0
+      },
+      {
+        "word": "redundant",
+        "start": 289.58,
+        "end": 290.26,
+        "probability": 0.85
+      },
+      {
+        "word": "code.",
+        "start": 290.26,
+        "end": 290.7,
+        "probability": 0.99
+      },
+      {
+        "word": "Here's",
+        "start": 290.78,
+        "end": 291.48,
+        "probability": 0.91
+      },
+      {
+        "word": "an",
+        "start": 291.48,
+        "end": 291.62,
+        "probability": 1.0
+      },
+      {
+        "word": "example",
+        "start": 291.62,
+        "end": 292.08,
+        "probability": 1.0
+      },
+      {
+        "word": "Think",
+        "start": 292.08,
+        "end": 292.92,
+        "probability": 0.92
+      },
+      {
+        "word": "of",
+        "start": 292.92,
+        "end": 293.16,
+        "probability": 0.99
+      },
+      {
+        "word": "HTML",
+        "start": 293.16,
+        "end": 293.68,
+        "probability": 0.96
+      },
+      {
+        "word": "elements",
+        "start": 293.68,
+        "end": 294.24,
+        "probability": 0.99
+      },
+      {
+        "word": "like",
+        "start": 294.24,
+        "end": 294.54,
+        "probability": 0.96
+      },
+      {
+        "word": "text",
+        "start": 294.54,
+        "end": 294.86,
+        "probability": 0.99
+      },
+      {
+        "word": "boxes",
+        "start": 294.86,
+        "end": 295.38,
+        "probability": 0.9
+      },
+      {
+        "word": "drop",
+        "start": 295.38,
+        "end": 295.98,
+        "probability": 0.79
+      },
+      {
+        "word": "-down",
+        "start": 295.98,
+        "end": 296.16,
+        "probability": 0.84
+      },
+      {
+        "word": "lists",
+        "start": 296.16,
+        "end": 296.62,
+        "probability": 0.86
+      },
+      {
+        "word": "checkboxes",
+        "start": 296.62,
+        "end": 297.4,
+        "probability": 0.73
+      },
+      {
+        "word": "and",
+        "start": 297.4,
+        "end": 297.66,
+        "probability": 0.79
+      },
+      {
+        "word": "so",
+        "start": 297.66,
+        "end": 297.86,
+        "probability": 1.0
+      },
+      {
+        "word": "on",
+        "start": 297.86,
+        "end": 298.24,
+        "probability": 1.0
+      },
+      {
+        "word": "All",
+        "start": 298.24,
+        "end": 298.94,
+        "probability": 0.28
+      },
+      {
+        "word": "these",
+        "start": 298.94,
+        "end": 299.12,
+        "probability": 1.0
+      },
+      {
+        "word": "elements",
+        "start": 299.12,
+        "end": 299.58,
+        "probability": 0.99
+      },
+      {
+        "word": "have",
+        "start": 299.58,
+        "end": 299.84,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 299.84,
+        "end": 300.0,
+        "probability": 1.0
+      },
+      {
+        "word": "few",
+        "start": 300.0,
+        "end": 300.16,
+        "probability": 1.0
+      },
+      {
+        "word": "things",
+        "start": 300.16,
+        "end": 300.4,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 300.4,
+        "end": 300.6,
+        "probability": 1.0
+      },
+      {
+        "word": "common",
+        "start": 300.6,
+        "end": 301.1,
+        "probability": 1.0
+      },
+      {
+        "word": "They",
+        "start": 301.1,
+        "end": 301.52,
+        "probability": 0.32
+      },
+      {
+        "word": "should",
+        "start": 301.52,
+        "end": 301.66,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 301.66,
+        "end": 301.84,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 301.84,
+        "end": 302.4,
+        "probability": 1.0
+      },
+      {
+        "word": "like",
+        "start": 302.4,
+        "end": 302.66,
+        "probability": 1.0
+      },
+      {
+        "word": "hidden",
+        "start": 302.66,
+        "end": 303.0,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 303.0,
+        "end": 303.54,
+        "probability": 0.91
+      },
+      {
+        "word": "inner",
+        "start": 303.54,
+        "end": 303.84,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "slide_id": 34,
+    "image_path": "slides\\slide_034_at_303.8s.jpg",
+    "timestamp_start": 303.7999999999913,
+    "timestamp_end": 307.7999999999911,
+    "word_count": 8,
+    "transcript_text": "HTML and methods like click and focus Instead",
+    "words": [
+      {
+        "word": "HTML",
+        "start": 303.84,
+        "end": 304.44,
+        "probability": 0.92
+      },
+      {
+        "word": "and",
+        "start": 304.44,
+        "end": 305.08,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 305.08,
+        "end": 305.44,
+        "probability": 0.86
+      },
+      {
+        "word": "like",
+        "start": 305.44,
+        "end": 305.7,
+        "probability": 1.0
+      },
+      {
+        "word": "click",
+        "start": 305.7,
+        "end": 306.0,
+        "probability": 0.98
+      },
+      {
+        "word": "and",
+        "start": 306.0,
+        "end": 306.42,
+        "probability": 0.99
+      },
+      {
+        "word": "focus",
+        "start": 306.42,
+        "end": 306.98,
+        "probability": 1.0
+      },
+      {
+        "word": "Instead",
+        "start": 307.56,
+        "end": 308.06,
+        "probability": 0.81
+      }
+    ]
+  },
+  {
+    "slide_id": 35,
+    "image_path": "slides\\slide_035_at_307.8s.jpg",
+    "timestamp_start": 307.7999999999911,
+    "timestamp_end": 318.5999999999905,
+    "word_count": 28,
+    "transcript_text": "of redefining all these properties and methods for every type of HTML element We can define them once in a generic object Call it HTML element and have",
+    "words": [
+      {
+        "word": "of",
+        "start": 308.06,
+        "end": 308.3,
+        "probability": 1.0
+      },
+      {
+        "word": "redefining",
+        "start": 308.3,
+        "end": 308.88,
+        "probability": 0.99
+      },
+      {
+        "word": "all",
+        "start": 308.88,
+        "end": 309.32,
+        "probability": 0.99
+      },
+      {
+        "word": "these",
+        "start": 309.32,
+        "end": 309.5,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 309.5,
+        "end": 310.1,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 310.1,
+        "end": 310.38,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 310.38,
+        "end": 310.78,
+        "probability": 1.0
+      },
+      {
+        "word": "for",
+        "start": 310.78,
+        "end": 311.0,
+        "probability": 1.0
+      },
+      {
+        "word": "every",
+        "start": 311.0,
+        "end": 311.38,
+        "probability": 1.0
+      },
+      {
+        "word": "type",
+        "start": 311.38,
+        "end": 311.66,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 311.66,
+        "end": 311.88,
+        "probability": 1.0
+      },
+      {
+        "word": "HTML",
+        "start": 311.88,
+        "end": 312.38,
+        "probability": 0.99
+      },
+      {
+        "word": "element",
+        "start": 312.38,
+        "end": 312.94,
+        "probability": 0.98
+      },
+      {
+        "word": "We",
+        "start": 312.94,
+        "end": 313.68,
+        "probability": 0.86
+      },
+      {
+        "word": "can",
+        "start": 313.68,
+        "end": 313.8,
+        "probability": 1.0
+      },
+      {
+        "word": "define",
+        "start": 313.8,
+        "end": 314.16,
+        "probability": 0.99
+      },
+      {
+        "word": "them",
+        "start": 314.16,
+        "end": 314.34,
+        "probability": 0.76
+      },
+      {
+        "word": "once",
+        "start": 314.34,
+        "end": 314.64,
+        "probability": 0.98
+      },
+      {
+        "word": "in",
+        "start": 314.64,
+        "end": 314.88,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 314.88,
+        "end": 315.04,
+        "probability": 1.0
+      },
+      {
+        "word": "generic",
+        "start": 315.04,
+        "end": 315.42,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 315.42,
+        "end": 316.0,
+        "probability": 0.99
+      },
+      {
+        "word": "Call",
+        "start": 316.0,
+        "end": 316.58,
+        "probability": 0.61
+      },
+      {
+        "word": "it",
+        "start": 316.58,
+        "end": 316.76,
+        "probability": 0.99
+      },
+      {
+        "word": "HTML",
+        "start": 316.76,
+        "end": 317.3,
+        "probability": 1.0
+      },
+      {
+        "word": "element",
+        "start": 317.3,
+        "end": 317.8,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 317.8,
+        "end": 318.44,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 318.44,
+        "end": 318.64,
+        "probability": 0.92
+      }
+    ]
+  },
+  {
+    "slide_id": 36,
+    "image_path": "slides\\slide_036_at_318.6s.jpg",
+    "timestamp_start": 318.5999999999905,
+    "timestamp_end": 321.1999999999903,
+    "word_count": 5,
+    "transcript_text": "other objects inherit these properties",
+    "words": [
+      {
+        "word": "other",
+        "start": 318.64,
+        "end": 319.02,
+        "probability": 1.0
+      },
+      {
+        "word": "objects",
+        "start": 319.02,
+        "end": 319.68,
+        "probability": 1.0
+      },
+      {
+        "word": "inherit",
+        "start": 319.68,
+        "end": 320.36,
+        "probability": 0.97
+      },
+      {
+        "word": "these",
+        "start": 320.36,
+        "end": 320.62,
+        "probability": 1.0
+      },
+      {
+        "word": "properties",
+        "start": 320.62,
+        "end": 321.28,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 37,
+    "image_path": "slides\\slide_037_at_321.2s.jpg",
+    "timestamp_start": 321.1999999999903,
+    "timestamp_end": 332.79999999998967,
+    "word_count": 19,
+    "transcript_text": "and methods so inheritance helps us eliminate redundant code and finally polymorphism poly means many Morph means form so",
+    "words": [
+      {
+        "word": "and",
+        "start": 321.28,
+        "end": 321.52,
+        "probability": 1.0
+      },
+      {
+        "word": "methods",
+        "start": 321.52,
+        "end": 322.06,
+        "probability": 1.0
+      },
+      {
+        "word": "so",
+        "start": 322.08,
+        "end": 322.7,
+        "probability": 0.46
+      },
+      {
+        "word": "inheritance",
+        "start": 322.7,
+        "end": 323.24,
+        "probability": 1.0
+      },
+      {
+        "word": "helps",
+        "start": 323.24,
+        "end": 324.02,
+        "probability": 1.0
+      },
+      {
+        "word": "us",
+        "start": 324.02,
+        "end": 324.36,
+        "probability": 1.0
+      },
+      {
+        "word": "eliminate",
+        "start": 324.36,
+        "end": 324.96,
+        "probability": 1.0
+      },
+      {
+        "word": "redundant",
+        "start": 324.96,
+        "end": 325.54,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 325.54,
+        "end": 325.9,
+        "probability": 0.98
+      },
+      {
+        "word": "and",
+        "start": 325.9,
+        "end": 326.28,
+        "probability": 0.99
+      },
+      {
+        "word": "finally",
+        "start": 326.98,
+        "end": 327.46,
+        "probability": 0.84
+      },
+      {
+        "word": "polymorphism",
+        "start": 327.46,
+        "end": 328.7,
+        "probability": 0.97
+      },
+      {
+        "word": "poly",
+        "start": 328.7,
+        "end": 329.46,
+        "probability": 0.21
+      },
+      {
+        "word": "means",
+        "start": 329.46,
+        "end": 329.84,
+        "probability": 0.98
+      },
+      {
+        "word": "many",
+        "start": 329.84,
+        "end": 330.9,
+        "probability": 0.99
+      },
+      {
+        "word": "Morph",
+        "start": 330.9,
+        "end": 331.44,
+        "probability": 0.5
+      },
+      {
+        "word": "means",
+        "start": 331.44,
+        "end": 331.88,
+        "probability": 0.98
+      },
+      {
+        "word": "form",
+        "start": 331.88,
+        "end": 332.36,
+        "probability": 0.94
+      },
+      {
+        "word": "so",
+        "start": 332.36,
+        "end": 332.98,
+        "probability": 0.86
+      }
+    ]
+  },
+  {
+    "slide_id": 38,
+    "image_path": "slides\\slide_038_at_332.8s.jpg",
+    "timestamp_start": 332.79999999998967,
+    "timestamp_end": 347.5999999999888,
+    "word_count": 36,
+    "transcript_text": "polymorphism means many forms in object -oriented programming Polymorphism is a technique that allows you to get rid of long if and else or switch and case statements So back to our HTML elements example, all",
+    "words": [
+      {
+        "word": "polymorphism",
+        "start": 332.98,
+        "end": 333.78,
+        "probability": 0.98
+      },
+      {
+        "word": "means",
+        "start": 333.78,
+        "end": 334.14,
+        "probability": 0.99
+      },
+      {
+        "word": "many",
+        "start": 334.14,
+        "end": 334.66,
+        "probability": 1.0
+      },
+      {
+        "word": "forms",
+        "start": 334.66,
+        "end": 335.14,
+        "probability": 0.97
+      },
+      {
+        "word": "in",
+        "start": 335.14,
+        "end": 335.94,
+        "probability": 0.96
+      },
+      {
+        "word": "object",
+        "start": 335.94,
+        "end": 336.26,
+        "probability": 0.98
+      },
+      {
+        "word": "-oriented",
+        "start": 336.26,
+        "end": 336.58,
+        "probability": 0.75
+      },
+      {
+        "word": "programming",
+        "start": 336.58,
+        "end": 337.3,
+        "probability": 0.99
+      },
+      {
+        "word": "Polymorphism",
+        "start": 337.3,
+        "end": 338.22,
+        "probability": 0.91
+      },
+      {
+        "word": "is",
+        "start": 338.22,
+        "end": 338.38,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 338.38,
+        "end": 338.58,
+        "probability": 1.0
+      },
+      {
+        "word": "technique",
+        "start": 338.58,
+        "end": 338.94,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 338.94,
+        "end": 339.24,
+        "probability": 0.99
+      },
+      {
+        "word": "allows",
+        "start": 339.24,
+        "end": 339.7,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 339.7,
+        "end": 339.94,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 339.94,
+        "end": 340.18,
+        "probability": 1.0
+      },
+      {
+        "word": "get",
+        "start": 340.18,
+        "end": 340.46,
+        "probability": 1.0
+      },
+      {
+        "word": "rid",
+        "start": 340.46,
+        "end": 340.64,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 340.64,
+        "end": 340.86,
+        "probability": 1.0
+      },
+      {
+        "word": "long",
+        "start": 340.86,
+        "end": 341.32,
+        "probability": 1.0
+      },
+      {
+        "word": "if",
+        "start": 341.32,
+        "end": 341.7,
+        "probability": 0.84
+      },
+      {
+        "word": "and",
+        "start": 341.7,
+        "end": 341.86,
+        "probability": 0.77
+      },
+      {
+        "word": "else",
+        "start": 341.86,
+        "end": 342.16,
+        "probability": 0.58
+      },
+      {
+        "word": "or",
+        "start": 342.16,
+        "end": 342.66,
+        "probability": 0.99
+      },
+      {
+        "word": "switch",
+        "start": 342.66,
+        "end": 343.24,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 343.24,
+        "end": 343.46,
+        "probability": 0.48
+      },
+      {
+        "word": "case",
+        "start": 343.46,
+        "end": 343.74,
+        "probability": 0.88
+      },
+      {
+        "word": "statements",
+        "start": 343.74,
+        "end": 344.34,
+        "probability": 0.94
+      },
+      {
+        "word": "So",
+        "start": 344.34,
+        "end": 345.18,
+        "probability": 0.82
+      },
+      {
+        "word": "back",
+        "start": 345.18,
+        "end": 345.42,
+        "probability": 0.98
+      },
+      {
+        "word": "to",
+        "start": 345.42,
+        "end": 345.54,
+        "probability": 0.99
+      },
+      {
+        "word": "our",
+        "start": 345.54,
+        "end": 345.76,
+        "probability": 0.99
+      },
+      {
+        "word": "HTML",
+        "start": 345.76,
+        "end": 346.22,
+        "probability": 0.93
+      },
+      {
+        "word": "elements",
+        "start": 346.22,
+        "end": 346.7,
+        "probability": 0.96
+      },
+      {
+        "word": "example,",
+        "start": 346.7,
+        "end": 347.22,
+        "probability": 1.0
+      },
+      {
+        "word": "all",
+        "start": 347.22,
+        "end": 347.88,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 39,
+    "image_path": "slides\\slide_039_at_347.6s.jpg",
+    "timestamp_start": 347.5999999999888,
+    "timestamp_end": 363.7999999999879,
+    "word_count": 47,
+    "transcript_text": "these objects should have the ability to be rendered on a page But the way each element is rendered is different from the others If we want to render multiple HTML elements in a procedural way our code would probably look like this but with object orientation",
+    "words": [
+      {
+        "word": "these",
+        "start": 347.88,
+        "end": 348.06,
+        "probability": 0.99
+      },
+      {
+        "word": "objects",
+        "start": 348.06,
+        "end": 348.58,
+        "probability": 1.0
+      },
+      {
+        "word": "should",
+        "start": 348.58,
+        "end": 348.92,
+        "probability": 1.0
+      },
+      {
+        "word": "have",
+        "start": 348.92,
+        "end": 349.16,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 349.16,
+        "end": 349.34,
+        "probability": 1.0
+      },
+      {
+        "word": "ability",
+        "start": 349.34,
+        "end": 349.74,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 349.74,
+        "end": 350.02,
+        "probability": 1.0
+      },
+      {
+        "word": "be",
+        "start": 350.02,
+        "end": 350.22,
+        "probability": 1.0
+      },
+      {
+        "word": "rendered",
+        "start": 350.22,
+        "end": 350.5,
+        "probability": 1.0
+      },
+      {
+        "word": "on",
+        "start": 350.5,
+        "end": 350.72,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 350.72,
+        "end": 350.88,
+        "probability": 0.93
+      },
+      {
+        "word": "page",
+        "start": 350.88,
+        "end": 351.22,
+        "probability": 1.0
+      },
+      {
+        "word": "But",
+        "start": 351.22,
+        "end": 352.04,
+        "probability": 0.82
+      },
+      {
+        "word": "the",
+        "start": 352.04,
+        "end": 352.22,
+        "probability": 0.99
+      },
+      {
+        "word": "way",
+        "start": 352.22,
+        "end": 352.46,
+        "probability": 1.0
+      },
+      {
+        "word": "each",
+        "start": 352.46,
+        "end": 352.76,
+        "probability": 0.99
+      },
+      {
+        "word": "element",
+        "start": 352.76,
+        "end": 353.16,
+        "probability": 1.0
+      },
+      {
+        "word": "is",
+        "start": 353.16,
+        "end": 353.4,
+        "probability": 1.0
+      },
+      {
+        "word": "rendered",
+        "start": 353.4,
+        "end": 353.86,
+        "probability": 0.99
+      },
+      {
+        "word": "is",
+        "start": 353.86,
+        "end": 354.14,
+        "probability": 1.0
+      },
+      {
+        "word": "different",
+        "start": 354.14,
+        "end": 354.68,
+        "probability": 0.99
+      },
+      {
+        "word": "from",
+        "start": 354.68,
+        "end": 354.98,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 354.98,
+        "end": 355.16,
+        "probability": 1.0
+      },
+      {
+        "word": "others",
+        "start": 355.16,
+        "end": 355.48,
+        "probability": 0.99
+      },
+      {
+        "word": "If",
+        "start": 355.48,
+        "end": 356.38,
+        "probability": 0.22
+      },
+      {
+        "word": "we",
+        "start": 356.38,
+        "end": 356.48,
+        "probability": 0.58
+      },
+      {
+        "word": "want",
+        "start": 356.48,
+        "end": 356.64,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 356.64,
+        "end": 356.82,
+        "probability": 1.0
+      },
+      {
+        "word": "render",
+        "start": 356.82,
+        "end": 357.14,
+        "probability": 1.0
+      },
+      {
+        "word": "multiple",
+        "start": 357.14,
+        "end": 357.68,
+        "probability": 1.0
+      },
+      {
+        "word": "HTML",
+        "start": 357.68,
+        "end": 358.2,
+        "probability": 0.98
+      },
+      {
+        "word": "elements",
+        "start": 358.2,
+        "end": 358.74,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 358.74,
+        "end": 358.98,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 358.98,
+        "end": 359.18,
+        "probability": 1.0
+      },
+      {
+        "word": "procedural",
+        "start": 359.18,
+        "end": 359.6,
+        "probability": 1.0
+      },
+      {
+        "word": "way",
+        "start": 359.6,
+        "end": 360.0,
+        "probability": 1.0
+      },
+      {
+        "word": "our",
+        "start": 360.0,
+        "end": 360.56,
+        "probability": 0.65
+      },
+      {
+        "word": "code",
+        "start": 360.56,
+        "end": 360.82,
+        "probability": 1.0
+      },
+      {
+        "word": "would",
+        "start": 360.82,
+        "end": 361.0,
+        "probability": 0.99
+      },
+      {
+        "word": "probably",
+        "start": 361.0,
+        "end": 361.54,
+        "probability": 1.0
+      },
+      {
+        "word": "look",
+        "start": 361.54,
+        "end": 361.74,
+        "probability": 1.0
+      },
+      {
+        "word": "like",
+        "start": 361.74,
+        "end": 361.92,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 361.92,
+        "end": 362.21,
+        "probability": 1.0
+      },
+      {
+        "word": "but",
+        "start": 362.58,
+        "end": 363.1,
+        "probability": 0.54
+      },
+      {
+        "word": "with",
+        "start": 363.1,
+        "end": 363.22,
+        "probability": 0.98
+      },
+      {
+        "word": "object",
+        "start": 363.22,
+        "end": 363.62,
+        "probability": 1.0
+      },
+      {
+        "word": "orientation",
+        "start": 363.62,
+        "end": 364.18,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 40,
+    "image_path": "slides\\slide_040_at_363.8s.jpg",
+    "timestamp_start": 363.7999999999879,
+    "timestamp_end": 367.99999999998766,
+    "word_count": 12,
+    "transcript_text": "We can implement a render method in each of these objects and",
+    "words": [
+      {
+        "word": "We",
+        "start": 364.18,
+        "end": 364.78,
+        "probability": 0.37
+      },
+      {
+        "word": "can",
+        "start": 364.78,
+        "end": 364.9,
+        "probability": 1.0
+      },
+      {
+        "word": "implement",
+        "start": 364.9,
+        "end": 365.52,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 365.52,
+        "end": 365.84,
+        "probability": 0.98
+      },
+      {
+        "word": "render",
+        "start": 365.84,
+        "end": 366.14,
+        "probability": 0.99
+      },
+      {
+        "word": "method",
+        "start": 366.14,
+        "end": 366.52,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 366.52,
+        "end": 366.8,
+        "probability": 1.0
+      },
+      {
+        "word": "each",
+        "start": 366.8,
+        "end": 366.98,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 366.98,
+        "end": 367.16,
+        "probability": 1.0
+      },
+      {
+        "word": "these",
+        "start": 367.16,
+        "end": 367.28,
+        "probability": 0.99
+      },
+      {
+        "word": "objects",
+        "start": 367.28,
+        "end": 367.88,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 367.88,
+        "end": 368.64,
+        "probability": 0.97
+      }
+    ]
+  },
+  {
+    "slide_id": 41,
+    "image_path": "slides\\slide_041_at_368.0s.jpg",
+    "timestamp_start": 367.99999999998766,
+    "timestamp_end": 388.3999999999865,
+    "word_count": 57,
+    "transcript_text": "the render method will behave differently Depending on the type of the object we are referencing So we can get rid of this nasty switch and case and use one line of code like this You will see that later in the course So here are the benefits of object -oriented programming using encapsulation We group related",
+    "words": [
+      {
+        "word": "the",
+        "start": 368.64,
+        "end": 368.82,
+        "probability": 1.0
+      },
+      {
+        "word": "render",
+        "start": 368.82,
+        "end": 369.1,
+        "probability": 0.99
+      },
+      {
+        "word": "method",
+        "start": 369.1,
+        "end": 369.46,
+        "probability": 1.0
+      },
+      {
+        "word": "will",
+        "start": 369.46,
+        "end": 369.66,
+        "probability": 1.0
+      },
+      {
+        "word": "behave",
+        "start": 369.66,
+        "end": 370.1,
+        "probability": 1.0
+      },
+      {
+        "word": "differently",
+        "start": 370.1,
+        "end": 370.92,
+        "probability": 1.0
+      },
+      {
+        "word": "Depending",
+        "start": 371.5,
+        "end": 371.8,
+        "probability": 0.76
+      },
+      {
+        "word": "on",
+        "start": 371.8,
+        "end": 372.24,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 372.24,
+        "end": 372.38,
+        "probability": 1.0
+      },
+      {
+        "word": "type",
+        "start": 372.38,
+        "end": 372.64,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 372.64,
+        "end": 372.8,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 372.8,
+        "end": 373.08,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 373.08,
+        "end": 373.48,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 373.48,
+        "end": 373.64,
+        "probability": 0.64
+      },
+      {
+        "word": "are",
+        "start": 373.64,
+        "end": 373.8,
+        "probability": 1.0
+      },
+      {
+        "word": "referencing",
+        "start": 373.8,
+        "end": 374.32,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 374.32,
+        "end": 375.38,
+        "probability": 0.88
+      },
+      {
+        "word": "we",
+        "start": 375.38,
+        "end": 375.58,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 375.58,
+        "end": 375.7,
+        "probability": 1.0
+      },
+      {
+        "word": "get",
+        "start": 375.7,
+        "end": 375.92,
+        "probability": 1.0
+      },
+      {
+        "word": "rid",
+        "start": 375.92,
+        "end": 376.02,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 376.02,
+        "end": 376.16,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 376.16,
+        "end": 376.3,
+        "probability": 1.0
+      },
+      {
+        "word": "nasty",
+        "start": 376.3,
+        "end": 376.8,
+        "probability": 1.0
+      },
+      {
+        "word": "switch",
+        "start": 376.8,
+        "end": 377.2,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 377.2,
+        "end": 377.36,
+        "probability": 0.75
+      },
+      {
+        "word": "case",
+        "start": 377.36,
+        "end": 377.74,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 377.74,
+        "end": 378.32,
+        "probability": 1.0
+      },
+      {
+        "word": "use",
+        "start": 378.32,
+        "end": 378.48,
+        "probability": 1.0
+      },
+      {
+        "word": "one",
+        "start": 378.48,
+        "end": 378.82,
+        "probability": 1.0
+      },
+      {
+        "word": "line",
+        "start": 378.82,
+        "end": 379.04,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 379.04,
+        "end": 379.3,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 379.3,
+        "end": 379.5,
+        "probability": 1.0
+      },
+      {
+        "word": "like",
+        "start": 379.5,
+        "end": 379.72,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 379.72,
+        "end": 380.12,
+        "probability": 1.0
+      },
+      {
+        "word": "You",
+        "start": 380.12,
+        "end": 380.76,
+        "probability": 0.98
+      },
+      {
+        "word": "will",
+        "start": 380.76,
+        "end": 380.88,
+        "probability": 0.97
+      },
+      {
+        "word": "see",
+        "start": 380.88,
+        "end": 381.02,
+        "probability": 1.0
+      },
+      {
+        "word": "that",
+        "start": 381.02,
+        "end": 381.18,
+        "probability": 1.0
+      },
+      {
+        "word": "later",
+        "start": 381.18,
+        "end": 381.5,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 381.5,
+        "end": 381.66,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 381.66,
+        "end": 381.8,
+        "probability": 1.0
+      },
+      {
+        "word": "course",
+        "start": 381.8,
+        "end": 382.1,
+        "probability": 1.0
+      },
+      {
+        "word": "So",
+        "start": 382.1,
+        "end": 382.94,
+        "probability": 0.34
+      },
+      {
+        "word": "here",
+        "start": 382.94,
+        "end": 383.12,
+        "probability": 1.0
+      },
+      {
+        "word": "are",
+        "start": 383.12,
+        "end": 383.3,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 383.3,
+        "end": 383.52,
+        "probability": 1.0
+      },
+      {
+        "word": "benefits",
+        "start": 383.52,
+        "end": 384.04,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 384.04,
+        "end": 384.3,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 384.3,
+        "end": 384.68,
+        "probability": 1.0
+      },
+      {
+        "word": "-oriented",
+        "start": 384.68,
+        "end": 385.06,
+        "probability": 0.65
+      },
+      {
+        "word": "programming",
+        "start": 385.06,
+        "end": 385.64,
+        "probability": 0.92
+      },
+      {
+        "word": "using",
+        "start": 385.64,
+        "end": 386.48,
+        "probability": 0.86
+      },
+      {
+        "word": "encapsulation",
+        "start": 386.48,
+        "end": 387.36,
+        "probability": 0.96
+      },
+      {
+        "word": "We",
+        "start": 387.36,
+        "end": 387.66,
+        "probability": 0.6
+      },
+      {
+        "word": "group",
+        "start": 387.66,
+        "end": 388.02,
+        "probability": 0.98
+      },
+      {
+        "word": "related",
+        "start": 388.02,
+        "end": 388.78,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 42,
+    "image_path": "slides\\slide_042_at_388.4s.jpg",
+    "timestamp_start": 388.3999999999865,
+    "timestamp_end": 393.7999999999862,
+    "word_count": 12,
+    "transcript_text": "variables and functions together and this way we can reduce complexity Now",
+    "words": [
+      {
+        "word": "variables",
+        "start": 388.78,
+        "end": 389.34,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 389.34,
+        "end": 389.58,
+        "probability": 1.0
+      },
+      {
+        "word": "functions",
+        "start": 389.58,
+        "end": 390.0,
+        "probability": 0.99
+      },
+      {
+        "word": "together",
+        "start": 390.0,
+        "end": 390.54,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 390.54,
+        "end": 391.2,
+        "probability": 0.78
+      },
+      {
+        "word": "this",
+        "start": 391.2,
+        "end": 391.38,
+        "probability": 1.0
+      },
+      {
+        "word": "way",
+        "start": 391.38,
+        "end": 391.54,
+        "probability": 1.0
+      },
+      {
+        "word": "we",
+        "start": 391.54,
+        "end": 391.7,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 391.7,
+        "end": 391.84,
+        "probability": 1.0
+      },
+      {
+        "word": "reduce",
+        "start": 391.84,
+        "end": 392.3,
+        "probability": 1.0
+      },
+      {
+        "word": "complexity",
+        "start": 392.3,
+        "end": 393.12,
+        "probability": 0.93
+      },
+      {
+        "word": "Now",
+        "start": 393.64,
+        "end": 394.18,
+        "probability": 0.7
+      }
+    ]
+  },
+  {
+    "slide_id": 43,
+    "image_path": "slides\\slide_043_at_393.8s.jpg",
+    "timestamp_start": 393.7999999999862,
+    "timestamp_end": 396.59999999998604,
+    "word_count": 8,
+    "transcript_text": "we can reuse these objects in different parts",
+    "words": [
+      {
+        "word": "we",
+        "start": 394.18,
+        "end": 394.34,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 394.34,
+        "end": 394.5,
+        "probability": 1.0
+      },
+      {
+        "word": "reuse",
+        "start": 394.5,
+        "end": 394.84,
+        "probability": 0.99
+      },
+      {
+        "word": "these",
+        "start": 394.84,
+        "end": 395.04,
+        "probability": 0.8
+      },
+      {
+        "word": "objects",
+        "start": 395.04,
+        "end": 395.58,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 395.58,
+        "end": 396.08,
+        "probability": 1.0
+      },
+      {
+        "word": "different",
+        "start": 396.08,
+        "end": 396.38,
+        "probability": 1.0
+      },
+      {
+        "word": "parts",
+        "start": 396.38,
+        "end": 396.68,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 44,
+    "image_path": "slides\\slide_044_at_396.6s.jpg",
+    "timestamp_start": 396.59999999998604,
+    "timestamp_end": 401.59999999998576,
+    "word_count": 13,
+    "transcript_text": "of a program or in different programs with abstraction We hide the details",
+    "words": [
+      {
+        "word": "of",
+        "start": 396.68,
+        "end": 396.78,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 396.78,
+        "end": 397.0,
+        "probability": 0.98
+      },
+      {
+        "word": "program",
+        "start": 397.0,
+        "end": 397.38,
+        "probability": 1.0
+      },
+      {
+        "word": "or",
+        "start": 397.38,
+        "end": 397.94,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 397.94,
+        "end": 398.18,
+        "probability": 1.0
+      },
+      {
+        "word": "different",
+        "start": 398.18,
+        "end": 398.42,
+        "probability": 1.0
+      },
+      {
+        "word": "programs",
+        "start": 398.42,
+        "end": 398.96,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 398.96,
+        "end": 399.6,
+        "probability": 0.91
+      },
+      {
+        "word": "abstraction",
+        "start": 399.6,
+        "end": 400.24,
+        "probability": 0.97
+      },
+      {
+        "word": "We",
+        "start": 400.24,
+        "end": 400.84,
+        "probability": 0.74
+      },
+      {
+        "word": "hide",
+        "start": 400.84,
+        "end": 401.08,
+        "probability": 0.99
+      },
+      {
+        "word": "the",
+        "start": 401.08,
+        "end": 401.32,
+        "probability": 1.0
+      },
+      {
+        "word": "details",
+        "start": 401.32,
+        "end": 401.76,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 45,
+    "image_path": "slides\\slide_045_at_401.6s.jpg",
+    "timestamp_start": 401.59999999998576,
+    "timestamp_end": 408.1999999999854,
+    "word_count": 14,
+    "transcript_text": "and the complexity and show only the essentials this technique reduces Complexity and also",
+    "words": [
+      {
+        "word": "and",
+        "start": 401.76,
+        "end": 402.08,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 402.08,
+        "end": 402.3,
+        "probability": 1.0
+      },
+      {
+        "word": "complexity",
+        "start": 402.3,
+        "end": 402.9,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 402.9,
+        "end": 403.62,
+        "probability": 0.99
+      },
+      {
+        "word": "show",
+        "start": 403.62,
+        "end": 403.96,
+        "probability": 1.0
+      },
+      {
+        "word": "only",
+        "start": 403.96,
+        "end": 404.4,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 404.4,
+        "end": 404.6,
+        "probability": 1.0
+      },
+      {
+        "word": "essentials",
+        "start": 404.6,
+        "end": 405.18,
+        "probability": 0.99
+      },
+      {
+        "word": "this",
+        "start": 405.18,
+        "end": 405.9,
+        "probability": 0.67
+      },
+      {
+        "word": "technique",
+        "start": 405.9,
+        "end": 406.34,
+        "probability": 1.0
+      },
+      {
+        "word": "reduces",
+        "start": 406.34,
+        "end": 406.9,
+        "probability": 0.97
+      },
+      {
+        "word": "Complexity",
+        "start": 406.9,
+        "end": 407.74,
+        "probability": 0.75
+      },
+      {
+        "word": "and",
+        "start": 407.74,
+        "end": 408.18,
+        "probability": 0.98
+      },
+      {
+        "word": "also",
+        "start": 408.18,
+        "end": 408.58,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 46,
+    "image_path": "slides\\slide_046_at_408.2s.jpg",
+    "timestamp_start": 408.1999999999854,
+    "timestamp_end": 410.59999999998524,
+    "word_count": 5,
+    "transcript_text": "isolates the impact of changes",
+    "words": [
+      {
+        "word": "isolates",
+        "start": 408.58,
+        "end": 409.36,
+        "probability": 0.95
+      },
+      {
+        "word": "the",
+        "start": 409.36,
+        "end": 409.56,
+        "probability": 0.99
+      },
+      {
+        "word": "impact",
+        "start": 409.56,
+        "end": 410.06,
+        "probability": 1.0
+      },
+      {
+        "word": "of",
+        "start": 410.06,
+        "end": 410.38,
+        "probability": 1.0
+      },
+      {
+        "word": "changes",
+        "start": 410.38,
+        "end": 410.74,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 47,
+    "image_path": "slides\\slide_047_at_410.6s.jpg",
+    "timestamp_start": 410.59999999998524,
+    "timestamp_end": 414.999999999985,
+    "word_count": 11,
+    "transcript_text": "in the code with inheritance We can eliminate redundant code and",
+    "words": [
+      {
+        "word": "in",
+        "start": 410.74,
+        "end": 410.94,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 410.94,
+        "end": 411.06,
+        "probability": 1.0
+      },
+      {
+        "word": "code",
+        "start": 411.06,
+        "end": 411.58,
+        "probability": 1.0
+      },
+      {
+        "word": "with",
+        "start": 411.58,
+        "end": 412.2,
+        "probability": 0.77
+      },
+      {
+        "word": "inheritance",
+        "start": 412.2,
+        "end": 412.68,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 412.68,
+        "end": 412.98,
+        "probability": 0.5
+      },
+      {
+        "word": "can",
+        "start": 412.98,
+        "end": 413.12,
+        "probability": 1.0
+      },
+      {
+        "word": "eliminate",
+        "start": 413.12,
+        "end": 413.78,
+        "probability": 1.0
+      },
+      {
+        "word": "redundant",
+        "start": 413.78,
+        "end": 414.52,
+        "probability": 0.98
+      },
+      {
+        "word": "code",
+        "start": 414.52,
+        "end": 414.96,
+        "probability": 0.99
+      },
+      {
+        "word": "and",
+        "start": 414.96,
+        "end": 415.6,
+        "probability": 0.97
+      }
+    ]
+  },
+  {
+    "slide_id": 48,
+    "image_path": "slides\\slide_048_at_415.0s.jpg",
+    "timestamp_start": 414.999999999985,
+    "timestamp_end": 419.19999999998475,
+    "word_count": 9,
+    "transcript_text": "with polymorphism. We can refactor ugly switch case statements",
+    "words": [
+      {
+        "word": "with",
+        "start": 415.6,
+        "end": 415.82,
+        "probability": 1.0
+      },
+      {
+        "word": "polymorphism.",
+        "start": 415.82,
+        "end": 416.62,
+        "probability": 1.0
+      },
+      {
+        "word": "We",
+        "start": 416.62,
+        "end": 416.86,
+        "probability": 1.0
+      },
+      {
+        "word": "can",
+        "start": 416.86,
+        "end": 417.02,
+        "probability": 1.0
+      },
+      {
+        "word": "refactor",
+        "start": 417.02,
+        "end": 417.6,
+        "probability": 0.97
+      },
+      {
+        "word": "ugly",
+        "start": 417.6,
+        "end": 418.34,
+        "probability": 0.98
+      },
+      {
+        "word": "switch",
+        "start": 418.34,
+        "end": 418.84,
+        "probability": 0.95
+      },
+      {
+        "word": "case",
+        "start": 418.84,
+        "end": 419.14,
+        "probability": 0.94
+      },
+      {
+        "word": "statements",
+        "start": 419.14,
+        "end": 419.78,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "slide_id": 49,
+    "image_path": "slides\\slide_049_at_419.2s.jpg",
+    "timestamp_start": 419.19999999998475,
+    "timestamp_end": 425.1999999999844,
+    "word_count": 3,
+    "transcript_text": "Well, hello. It's",
+    "words": [
+      {
+        "word": "Well,",
+        "start": 423.23,
+        "end": 424.07,
+        "probability": 0.95
+      },
+      {
+        "word": "hello.",
+        "start": 424.07,
+        "end": 424.65,
+        "probability": 1.0
+      },
+      {
+        "word": "It's",
+        "start": 424.67,
+        "end": 425.21,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "slide_id": 50,
+    "image_path": "slides\\slide_050_at_425.2s.jpg",
+    "timestamp_start": 425.1999999999844,
+    "timestamp_end": 453.95,
+    "word_count": 104,
+    "transcript_text": "me Masha again. I wanted to say thank you very much for watching this tutorial to the end I hope you learned a lot Please share and like this video to support me if you want to learn more about object -oriented programming as I told you before I have a course called object -oriented programming in JavaScript If you want to learn more click on the link in the video description and enroll in the course And if not, that's perfectly fine. Make sure to subscribe to my channel because I upload new videos every week Thank you and have a great day",
+    "words": [
+      {
+        "word": "me",
+        "start": 425.21,
+        "end": 425.31,
+        "probability": 0.94
+      },
+      {
+        "word": "Masha",
+        "start": 425.31,
+        "end": 425.57,
+        "probability": 0.45
+      },
+      {
+        "word": "again.",
+        "start": 425.57,
+        "end": 425.89,
+        "probability": 0.9
+      },
+      {
+        "word": "I",
+        "start": 425.91,
+        "end": 426.37,
+        "probability": 1.0
+      },
+      {
+        "word": "wanted",
+        "start": 426.37,
+        "end": 426.49,
+        "probability": 0.99
+      },
+      {
+        "word": "to",
+        "start": 426.49,
+        "end": 426.65,
+        "probability": 1.0
+      },
+      {
+        "word": "say",
+        "start": 426.65,
+        "end": 426.85,
+        "probability": 1.0
+      },
+      {
+        "word": "thank",
+        "start": 426.85,
+        "end": 427.37,
+        "probability": 0.99
+      },
+      {
+        "word": "you",
+        "start": 427.37,
+        "end": 427.51,
+        "probability": 1.0
+      },
+      {
+        "word": "very",
+        "start": 427.51,
+        "end": 427.71,
+        "probability": 1.0
+      },
+      {
+        "word": "much",
+        "start": 427.71,
+        "end": 427.93,
+        "probability": 1.0
+      },
+      {
+        "word": "for",
+        "start": 427.93,
+        "end": 428.11,
+        "probability": 1.0
+      },
+      {
+        "word": "watching",
+        "start": 428.11,
+        "end": 428.45,
+        "probability": 1.0
+      },
+      {
+        "word": "this",
+        "start": 428.45,
+        "end": 428.65,
+        "probability": 1.0
+      },
+      {
+        "word": "tutorial",
+        "start": 428.65,
+        "end": 428.99,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 428.99,
+        "end": 429.17,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 429.17,
+        "end": 429.31,
+        "probability": 1.0
+      },
+      {
+        "word": "end",
+        "start": 429.31,
+        "end": 429.55,
+        "probability": 1.0
+      },
+      {
+        "word": "I",
+        "start": 429.55,
+        "end": 429.85,
+        "probability": 0.99
+      },
+      {
+        "word": "hope",
+        "start": 429.85,
+        "end": 429.99,
+        "probability": 1.0
+      },
+      {
+        "word": "you",
+        "start": 429.99,
+        "end": 430.15,
+        "probability": 1.0
+      },
+      {
+        "word": "learned",
+        "start": 430.15,
+        "end": 430.31,
+        "probability": 0.65
+      },
+      {
+        "word": "a",
+        "start": 430.31,
+        "end": 430.47,
+        "probability": 1.0
+      },
+      {
+        "word": "lot",
+        "start": 430.47,
+        "end": 430.75,
+        "probability": 1.0
+      },
+      {
+        "word": "Please",
+        "start": 430.75,
+        "end": 431.15,
+        "probability": 0.7
+      },
+      {
+        "word": "share",
+        "start": 431.15,
+        "end": 431.51,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 431.51,
+        "end": 431.81,
+        "probability": 0.99
+      },
+      {
+        "word": "like",
+        "start": 431.81,
+        "end": 431.97,
+        "probability": 0.98
+      },
+      {
+        "word": "this",
+        "start": 431.97,
+        "end": 432.21,
+        "probability": 1.0
+      },
+      {
+        "word": "video",
+        "start": 432.21,
+        "end": 432.43,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 432.43,
+        "end": 432.65,
+        "probability": 1.0
+      },
+      {
+        "word": "support",
+        "start": 432.65,
+        "end": 432.99,
+        "probability": 1.0
+      },
+      {
+        "word": "me",
+        "start": 432.99,
+        "end": 433.25,
+        "probability": 0.99
+      },
+      {
+        "word": "if",
+        "start": 433.25,
+        "end": 433.67,
+        "probability": 0.75
+      },
+      {
+        "word": "you",
+        "start": 433.67,
+        "end": 433.75,
+        "probability": 1.0
+      },
+      {
+        "word": "want",
+        "start": 433.75,
+        "end": 433.87,
+        "probability": 0.99
+      },
+      {
+        "word": "to",
+        "start": 433.87,
+        "end": 433.93,
+        "probability": 1.0
+      },
+      {
+        "word": "learn",
+        "start": 433.93,
+        "end": 434.11,
+        "probability": 1.0
+      },
+      {
+        "word": "more",
+        "start": 434.11,
+        "end": 434.37,
+        "probability": 1.0
+      },
+      {
+        "word": "about",
+        "start": 434.37,
+        "end": 434.63,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 434.63,
+        "end": 435.01,
+        "probability": 0.56
+      },
+      {
+        "word": "-oriented",
+        "start": 435.01,
+        "end": 435.39,
+        "probability": 0.76
+      },
+      {
+        "word": "programming",
+        "start": 435.39,
+        "end": 435.91,
+        "probability": 0.86
+      },
+      {
+        "word": "as",
+        "start": 435.91,
+        "end": 436.27,
+        "probability": 0.9
+      },
+      {
+        "word": "I",
+        "start": 436.27,
+        "end": 436.39,
+        "probability": 1.0
+      },
+      {
+        "word": "told",
+        "start": 436.39,
+        "end": 436.55,
+        "probability": 0.99
+      },
+      {
+        "word": "you",
+        "start": 436.55,
+        "end": 436.69,
+        "probability": 1.0
+      },
+      {
+        "word": "before",
+        "start": 436.69,
+        "end": 436.99,
+        "probability": 0.99
+      },
+      {
+        "word": "I",
+        "start": 436.99,
+        "end": 437.21,
+        "probability": 0.98
+      },
+      {
+        "word": "have",
+        "start": 437.21,
+        "end": 437.33,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 437.33,
+        "end": 437.49,
+        "probability": 1.0
+      },
+      {
+        "word": "course",
+        "start": 437.49,
+        "end": 437.77,
+        "probability": 1.0
+      },
+      {
+        "word": "called",
+        "start": 437.77,
+        "end": 438.21,
+        "probability": 1.0
+      },
+      {
+        "word": "object",
+        "start": 438.21,
+        "end": 438.69,
+        "probability": 0.98
+      },
+      {
+        "word": "-oriented",
+        "start": 438.69,
+        "end": 438.99,
+        "probability": 0.69
+      },
+      {
+        "word": "programming",
+        "start": 438.99,
+        "end": 439.59,
+        "probability": 0.99
+      },
+      {
+        "word": "in",
+        "start": 439.59,
+        "end": 439.89,
+        "probability": 0.99
+      },
+      {
+        "word": "JavaScript",
+        "start": 439.89,
+        "end": 440.37,
+        "probability": 0.96
+      },
+      {
+        "word": "If",
+        "start": 440.37,
+        "end": 441.05,
+        "probability": 0.45
+      },
+      {
+        "word": "you",
+        "start": 441.05,
+        "end": 441.15,
+        "probability": 1.0
+      },
+      {
+        "word": "want",
+        "start": 441.15,
+        "end": 441.25,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 441.25,
+        "end": 441.33,
+        "probability": 1.0
+      },
+      {
+        "word": "learn",
+        "start": 441.33,
+        "end": 441.49,
+        "probability": 1.0
+      },
+      {
+        "word": "more",
+        "start": 441.49,
+        "end": 441.87,
+        "probability": 1.0
+      },
+      {
+        "word": "click",
+        "start": 441.87,
+        "end": 442.31,
+        "probability": 0.95
+      },
+      {
+        "word": "on",
+        "start": 442.31,
+        "end": 442.53,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 442.53,
+        "end": 442.67,
+        "probability": 1.0
+      },
+      {
+        "word": "link",
+        "start": 442.67,
+        "end": 442.89,
+        "probability": 1.0
+      },
+      {
+        "word": "in",
+        "start": 442.89,
+        "end": 443.13,
+        "probability": 1.0
+      },
+      {
+        "word": "the",
+        "start": 443.13,
+        "end": 443.23,
+        "probability": 1.0
+      },
+      {
+        "word": "video",
+        "start": 443.23,
+        "end": 443.45,
+        "probability": 1.0
+      },
+      {
+        "word": "description",
+        "start": 443.45,
+        "end": 443.91,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 443.91,
+        "end": 444.39,
+        "probability": 0.98
+      },
+      {
+        "word": "enroll",
+        "start": 444.39,
+        "end": 444.75,
+        "probability": 0.99
+      },
+      {
+        "word": "in",
+        "start": 444.75,
+        "end": 444.89,
+        "probability": 0.98
+      },
+      {
+        "word": "the",
+        "start": 444.89,
+        "end": 445.01,
+        "probability": 1.0
+      },
+      {
+        "word": "course",
+        "start": 445.01,
+        "end": 445.33,
+        "probability": 1.0
+      },
+      {
+        "word": "And",
+        "start": 445.33,
+        "end": 445.77,
+        "probability": 0.32
+      },
+      {
+        "word": "if",
+        "start": 445.77,
+        "end": 445.87,
+        "probability": 0.98
+      },
+      {
+        "word": "not,",
+        "start": 445.87,
+        "end": 446.09,
+        "probability": 1.0
+      },
+      {
+        "word": "that's",
+        "start": 446.21,
+        "end": 446.65,
+        "probability": 1.0
+      },
+      {
+        "word": "perfectly",
+        "start": 446.65,
+        "end": 446.95,
+        "probability": 1.0
+      },
+      {
+        "word": "fine.",
+        "start": 446.95,
+        "end": 447.29,
+        "probability": 1.0
+      },
+      {
+        "word": "Make",
+        "start": 447.29,
+        "end": 447.75,
+        "probability": 1.0
+      },
+      {
+        "word": "sure",
+        "start": 447.75,
+        "end": 447.95,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 447.95,
+        "end": 448.17,
+        "probability": 1.0
+      },
+      {
+        "word": "subscribe",
+        "start": 448.17,
+        "end": 448.57,
+        "probability": 1.0
+      },
+      {
+        "word": "to",
+        "start": 448.57,
+        "end": 448.77,
+        "probability": 1.0
+      },
+      {
+        "word": "my",
+        "start": 448.77,
+        "end": 448.95,
+        "probability": 1.0
+      },
+      {
+        "word": "channel",
+        "start": 448.95,
+        "end": 449.23,
+        "probability": 1.0
+      },
+      {
+        "word": "because",
+        "start": 449.23,
+        "end": 449.57,
+        "probability": 1.0
+      },
+      {
+        "word": "I",
+        "start": 449.57,
+        "end": 449.75,
+        "probability": 1.0
+      },
+      {
+        "word": "upload",
+        "start": 449.75,
+        "end": 450.09,
+        "probability": 0.97
+      },
+      {
+        "word": "new",
+        "start": 450.09,
+        "end": 450.39,
+        "probability": 1.0
+      },
+      {
+        "word": "videos",
+        "start": 450.39,
+        "end": 450.81,
+        "probability": 1.0
+      },
+      {
+        "word": "every",
+        "start": 450.81,
+        "end": 451.21,
+        "probability": 1.0
+      },
+      {
+        "word": "week",
+        "start": 451.21,
+        "end": 451.51,
+        "probability": 1.0
+      },
+      {
+        "word": "Thank",
+        "start": 451.51,
+        "end": 452.09,
+        "probability": 0.74
+      },
+      {
+        "word": "you",
+        "start": 452.09,
+        "end": 452.27,
+        "probability": 1.0
+      },
+      {
+        "word": "and",
+        "start": 452.27,
+        "end": 452.43,
+        "probability": 0.84
+      },
+      {
+        "word": "have",
+        "start": 452.43,
+        "end": 452.57,
+        "probability": 1.0
+      },
+      {
+        "word": "a",
+        "start": 452.57,
+        "end": 452.69,
+        "probability": 1.0
+      },
+      {
+        "word": "great",
+        "start": 452.69,
+        "end": 452.85,
+        "probability": 1.0
+      },
+      {
+        "word": "day",
+        "start": 452.85,
+        "end": 453.09,
+        "probability": 1.0
+      }
+    ]
+  }
+]
