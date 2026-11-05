@@ -1,18 +1,18 @@
 import React, { useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import {
-    Play, Pause, RotateCcw, BookOpen,
+    Play, Pause, RotateCcw, RotateCw, BookOpen,
     Layers, Image as ImageIcon, ChevronRight
 } from "lucide-react";
 
 const STYLES = {
-    container: "max-w-7xl mx-auto p-6 text-zinc-100 grid grid-cols-1 lg:grid-cols-12 gap-6",
+    container: "max-w-7xl mx-auto p-6 text-zinc-100 grid grid-cols-1 xl:grid-cols-12 gap-6",
     header: "col-span-12 border-b border-zinc-800 pb-4 mb-2 flex justify-between items-center",
     headerTitle: "text-xl font-bold tracking-tight text-white flex items-center gap-2",
     badge: "px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20",
-    leftCol: "lg:col-span-6 flex flex-col gap-4",
-    rightCol: "lg:col-span-6 flex flex-col gap-4 bg-zinc-900/60 border border-zinc-800/80 rounded-2xl p-5 backdrop-blur-sm min-h-[600px]",
-    playerWrapper: "relative aspect-video bg-black rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl",
+    leftCol: "xl:col-span-6 flex flex-col gap-4",
+    rightCol: "xl:col-span-6 flex flex-col gap-4 bg-zinc-900/60 border border-zinc-800/80 rounded-2xl p-5 backdrop-blur-sm min-h-[600px]",
+    playerWrapper: "relative w-full aspect-video min-h-[280px] bg-black rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl",
     controlsBar: "flex items-center justify-between bg-zinc-900 border border-zinc-800 px-4 py-3 rounded-xl",
     btn: "p-2 hover:bg-zinc-800 rounded-lg text-zinc-300 hover:text-white transition-all flex items-center gap-1.5 text-xs font-medium cursor-pointer",
     timelineCard: "bg-zinc-900/40 border border-zinc-800/80 rounded-2xl p-4 flex flex-col gap-2 max-h-[300px] overflow-y-auto",
@@ -23,7 +23,7 @@ const STYLES = {
     activeTab: "bg-white text-black font-bold shadow-sm",
     inactiveTab: "text-zinc-400 hover:text-white hover:bg-zinc-800/50",
     flashcardCard: "bg-zinc-950 border border-zinc-800 rounded-2xl p-6 min-h-[220px] flex flex-col justify-between cursor-pointer hover:border-zinc-700 transition-all shadow-lg",
-    slideThumb: "rounded-xl border border-zinc-800 overflow-hidden bg-black aspect-video relative group cursor-pointer"
+    slideThumb: "relative h-44 w-full rounded-xl border border-zinc-800 overflow-hidden bg-black group cursor-pointer hover:border-blue-500/60 transition-all shadow-mdr"
 }
 
 function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
@@ -34,21 +34,71 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
     const [flashcardFlipped, setFlashcardFlipped] = useState(false);
     const [currentCardIdx, setCurrentCardIdx] = useState(0);
 
+    const [isSummaryExpanded, setIsSummaryExpanded] = useState(false);
+
     const chapters = studyGuide?.chapters || [];
     const currentChapter = chapters[selectedChapterIdx] || chapters[0];
+
+    const summaryText = studyGuide?.overall_summary || "";
+    const isLongSummary = summaryText.length > 120;
+    const displayedSummary = isSummaryExpanded
+                            ? summaryText
+                            : `${summaryText.slice(0, 120)}${isLongSummary ? "..." : ""}`;
+
+    // To clean up markdown bold syntax to clean bold elements
+    const renderFormattedNotes = (text) => {
+        if (!text) return null;
+
+        const parts = text.split(/(```[\s\S]*?```)/g);
+
+        return parts.map((part, index) => {
+            // code block
+            if (part.startsWith("```") && part.endsWth("```")) {
+                const lines = part.slice(3, -3).trim().split("\n");
+                const language = lines[0].trim();
+                const codeContent = lines.length > 1 && !lines[0].includes(" ") ? lines.slice(1).join("\n") : lines.join("\n");
+
+                return (
+                    <div key={index} className="my-3 rounded-xl overflow-hidden border border-zinc-800 bg-black/80 font-mono text-xs">
+                        {language && (
+                            <div className="bg-zinc-900 px-3 py-1.5 text-zinc-400 border-b border-zinc-800 text-[10px] uppercase tracking-wider">
+                                {language}
+                            </div>
+                        )}
+                        <pre className="p-3 overflow-x-auto text-emerald-400 leading-relaxed">
+                            <code>{codeContent}</code>
+                        </pre>
+                    </div>
+                );
+            }
+
+            const boldParts = part.split(/\*\*/g);
+            return (
+                <span key={index}>
+                    {boldParts.map((subPart, bIndex) =>{
+                        if (bIndex % 2 == 1) {
+                            return <strong key={bIndex} className="font-semibold text-white">{subPart}</strong>
+                        }
+                        return subPart;
+                    })}
+                </span>
+            );
+            
+        });
+    }
 
     // Interactive chapter sync
     const handleSeekTo = (timestampSec) => {
         if (playerRef.current) {
-            playerRef.current.seekTo(timestampSec, "seconds");
+            playerRef.current.currentTime = parseFloat(timestampSec);
             setPlaying(true);
         }
     }
 
     const handleSkip = (seconds) => {
         if (playerRef.current) {
-            const current = playerRef.current.getCurrentTime();
-            playerRef.current.seekTo(current + seconds, "seconds")
+            const current = playerRef.current.currentTime || 0;
+            playerRef.current.currentTime = current + seconds;
         }
     }
 
@@ -59,8 +109,19 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                 <div>
                     <h2 className={STYLES.headerTitle}>
                         <BookOpen className="w-5 h-5 text-blue-400"/>
+                        {studyGuide?.course_topic || "Lecture Study Assistant"}
                     </h2>
-                    <p className="text-xs text-zinc-400 mt-1">{studyGuide?.overall_summary?.slice(0, 140)}...</p>
+                    <p className="text-xs text-zinc-400 mt-1 leading-relaxed">
+                        {displayedSummary}
+                        {isLongSummary && (
+                            <button 
+                                onClick={() => setIsSummaryExpanded(!isSummaryExpanded)}
+                                className="ml-2 text-blue-400 hover:text-blue-300 font-medium underline cursor-pointer focus:outline-none"
+                            >
+                                {isSummaryExpanded ? "Show less" : "Show more"}
+                            </button>
+                        )}
+                    </p>
                 </div>
                 <span className={STYLES.badge}>{chapters.length} Chapters Generated</span>
             </div>
@@ -71,13 +132,25 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                 <div className={STYLES.playerWrapper}>
                     <ReactPlayer
                         ref={playerRef}
-                        url={videoUrl}
+                        src={videoUrl}
                         width="100%"
                         height="100%"
+                        muted={true}
+                        style={{ position: 'absolute', top: 0, left: 0 }}
                         playing={playing}
                         controls={true}
                         onPlay={() => setPlaying(true)}
                         onPause={() => setPlaying(false)}
+                        config={{
+                            youtube: {
+                                playerVars: { 
+                                    origin: window.location.origin, 
+                                    autoplay: 0,
+                                    controls: 1,
+                                    modestbranding: 1
+                                }
+                            }
+                        }}
                     />
                 </div>
 
@@ -91,7 +164,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                         {playing ? "Pause" : "Play"}
                     </button>
                     <button className={STYLES.btn} onClick={() => handleSkip(10)}>
-                        <RotateCcw className="w-4 h-4" /> +10s
+                        <RotateCw className="w-4 h-4" /> +10s
                     </button>
                     <span className="text-xs font-mono text-zinc-500">Sync Mode Active</span>
                 </div>
@@ -105,7 +178,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                         const isSelected = selectedChapterIdx === idx;
                         const minutes = Math.floor(chap.timestamp_start / 60);
                         const seconds = Math.floor(chap.timestamp_start % 60);
-                        const timeStr = `${minutes.toString().padStart(2, "0")}: ${seconds}`;
+                        const timeStr = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 
                         return(
                             <div
@@ -153,7 +226,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
 
                 {/* TAB 1: NOTES VIEW */}
                 {activeTab === "notes" && (
-                    <div className="flex flex-col gap-4 overflow-y-auto max-h-125 pr-2">
+                    <div className="flex flex-col gap-4 overflow-y-auto max-h-[500px] pr-2">
                         <div>
                             <h3 className="text-lg font-bold text-white">{currentChapter?.title}</h3>
                             <p className="text-xs text-blue-400 font-mono mt-0.5">
@@ -166,7 +239,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                             <h4 className="text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Key Concepts:</h4>
                             <div className="flex flex-wrap gap-1.5">
                                 {currentChapter?.key_concepts?.map((concept, i) => (
-                                    <span key={i} className="px-2.5 py-1 bg-zinc-800 text-zinc-200 text-xs rounded-md border -700/60 font-medium">
+                                    <span key={i} className="px-2.5 py-1 bg-zinc-800 text-zinc-200 text-xs rounded-md border-zinc-700/60 font-medium">
                                         {concept}
                                     </span>
                                 ))}
@@ -176,8 +249,8 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                         {/* Summary Notes */}
                         <div>
                             <h4 className="text-xs font-seminold text-zinc-400 uppercase tracking-wider mb-2">Chapter Notes:</h4>
-                            <div className="text-sm text-zinc=300 leading-relaxed bg-zinc-950/60 p-4 rounded-xl border border-zinc-800/80 whitespace-pre-line">
-                                {currentChapter?.summary_markdown}
+                            <div className="text-sm text-zinc-300 leading-relaxed bg-zinc-950/60 p-4 rounded-xl border border-zinc-800/80 whitespace-pre-line">
+                                {renderFormattedNotes(currentChapter?.summary_markdown)}
                             </div>
                         </div>
 
@@ -208,13 +281,13 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                                         {flashcardFlipped ? "Answer" : "Question (Click to flip)"}
                                     </span>
 
-                                    <p classname="text-base font-medium text-white leading-snug">
+                                    <p className="text-base font-medium text-white leading-snug">
                                         {flashcardFlipped
                                             ? currentChapter.flashcards[currentCardIdx].back
                                             : currentChapter.flashcards[currentCardIdx].front}
                                     </p>
                                 </div>
-                                <span classname="text-xs text-blue-400 font-semibold self-end">
+                                <span className="text-xs text-blue-400 font-semibold self-end">
                                     {flashcardFlipped ? "Click to see Question" : "Show Answer →"}
                                 </span>
                             </div>
@@ -230,7 +303,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                                     setFlashcardFlipped(false);
                                     setCurrentCardIdx(c => Math.max(0, c - 1))
                                 }}
-                                className="px-4 py-2 bg-zinc-800 disabled: opacity-40 text-xs font-medium rounded-lg hover:bg-zinc-700 transition-all cursor-pointer"
+                                className="px-4 py-2 bg-zinc-800 disabled:opacity-40 text-xs font-medium rounded-lg hover:bg-zinc-700 transition-all cursor-pointer"
                             >
                                 ← Previous Card
                             </button>
@@ -239,8 +312,8 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                                 onClick={() => {
                                     setFlashcardFlipped(false);
                                     setCurrentCardIdx(c => Math.min(currentChapter?.flashcards?.length - 1, c + 1))
-                                    className="px-4 py-2 bg-zinc-800 disabled: opacity-40 text-xs font-medium rounded-lg hover:bg-zinc-700 transition-all cursor-pointer"
                                 }}
+                                className="px-4 py-2 bg-zinc-800 disabled:opacity-40 text-xs font-medium rounded-lg hover:bg-zinc-700 transition-all cursor-pointer"
                             >
                                 Next Card →
                             </button>
@@ -250,7 +323,7 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
 
                 {/* TAB 3: EXTRACTED SLIDES SYNC VIEWER */}
                 {activeTab === "slides" && (
-                    <div classname="grid grid-cols-2 gap-3 overflow-y-auto max-h-[500] pr-2">
+                    <div className="grid grid-cols-2 gap-4 overflow-y-auto max-h-[500px] pr-2 pb-4">
                         {slidesMetadata?.map((slide, idx) => (
                             <div
                                 key={idx}
@@ -260,10 +333,10 @@ function StudyDashboard({ videoUrl, studyGuide, slidesMetadata }) {
                                 <img
                                     src={`http://localhost:8000/${slide.image_path.replace(/\\/g, "/")}`}
                                     alt={`Slide ${slide.slide_id}`}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-contain bg-black"
                                 />
-                                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-90 p-2 flex flex-col justify-end">
-                                    <span className="text-[10px]" font-mono text-blue-300 font-bold>
+                                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent p-2 flex justify-between items-end">
+                                    <span className="text-[10px] font-mono text-blue-300 font-bold bg-black/60 px-1.5 py-0.5 rounded border border-blue-500/30">
                                         Slide {slide.slide_id} @ {Math.floor(slide.timestamp_start)}s
                                     </span>
                                 </div>

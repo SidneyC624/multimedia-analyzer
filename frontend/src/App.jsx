@@ -47,10 +47,15 @@ function App() {
     }, [jobId]);
 
     const handleUrlSubmit = (url) => {
-      console.log("App.jsx caught the URL successfully! ", url);
-      setSubmittedUrl(url);
+      // Ensure the url passed to video player is a string
+      const urlString = typeof url === "string"
+                        ? url
+                        : url?.target?.value || url?.url || "";
+
+      console.log("App.jsx caught the URL successfully! ", urlString);
+      setSubmittedUrl(urlString);
       setAnalysisResult(null);
-      sendUrlToBackend(url);
+      sendUrlToBackend(urlString);
     };
 
     const sendUrlToBackend = async (url) => {
